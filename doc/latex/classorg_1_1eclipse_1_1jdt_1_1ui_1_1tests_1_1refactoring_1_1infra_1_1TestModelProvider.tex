@@ -1,0 +1,266 @@
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider}{
+\section{org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider Class Reference}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider}\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+}
+
+
+Inherits org::eclipse::core::resources::mapping::ModelProvider.
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_1_1Sorter}{Sorter}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+IStatus \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_ad4565e82ca60b09a0b8c1161009e4dba}{validateChange} (IResourceDelta delta, IProgressMonitor pm)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a39a0f6b04970d743d014774dbc9f9a33}{clearDelta} ()
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_af86bdd78ff0d38e681f50a2649e79f69}{assertTrue} (IResourceDelta expected)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static IResourceDelta \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a34af87493dbe2276d2bf42a910f5111d}{LAST\_\-DELTA}
+\item 
+static boolean \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_afeec450fba96b7a08c116bdb00def0f2}{IS\_\-COPY\_\-TEST}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a92403097c85752447ef41af7e0b7fbb1}{assertTrue} (IResourceDelta expected, IResourceDelta actual)
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_afcef813fa077d730dd0bd792ad6be73a}{assertEqual} (IResource expected, IResource actual)
+\item 
+static IResourceDelta\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_aa98e75738fb52c2e8fb9b30a17f03697}{getExpectedChildren} (IResourceDelta delta)
+\item 
+static boolean \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_af6489f606abe93b8ab14716e64fcfa7d}{isIgnorable} (IResource resource)
+\item 
+static IResourceDelta\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a58dde27f4b384906fdfeeede2e811f13}{getActualChildren} (IResourceDelta delta, IResourceDelta\mbox{[}$\,$\mbox{]} expectedChildren)
+\item 
+static boolean \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a39c673b4dfd9b458b23e3b66c92b29bd}{contains} (IResourceDelta\mbox{[}$\,$\mbox{]} expectedChildren, IResourceDelta actualDelta)
+\item 
+static boolean \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a9522bbcc5d0fb447e6bd719e9e94a0b1}{isSameResourceInCopy} (IResource expected, IResource actual)
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_af63a1c64cc8a9524aa028eb16f95cad5}{assertCopySource} (IResourceDelta delta)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Comparator \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a34c064542b9901265edfad9cc8e10c97}{COMPARATOR} = new \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_1_1Sorter}{Sorter}()
+\item 
+static final int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_aa3f53621c627feb54da436301e629de8}{PRE\_\-DELTA\_\-FLAGS}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 30 of file TestModelProvider.java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_af63a1c64cc8a9524aa028eb16f95cad5}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!assertCopySource@{assertCopySource}}
+\index{assertCopySource@{assertCopySource}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{assertCopySource}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.assertCopySource (
+\begin{DoxyParamCaption}
+\item[{IResourceDelta}]{delta}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_af63a1c64cc8a9524aa028eb16f95cad5}
+
+
+Definition at line 191 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_afcef813fa077d730dd0bd792ad6be73a}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!assertEqual@{assertEqual}}
+\index{assertEqual@{assertEqual}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{assertEqual}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.assertEqual (
+\begin{DoxyParamCaption}
+\item[{IResource}]{expected, }
+\item[{IResource}]{actual}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_afcef813fa077d730dd0bd792ad6be73a}
+
+
+Definition at line 93 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a92403097c85752447ef41af7e0b7fbb1}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!assertTrue@{assertTrue}}
+\index{assertTrue@{assertTrue}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{assertTrue}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.assertTrue (
+\begin{DoxyParamCaption}
+\item[{IResourceDelta}]{expected, }
+\item[{IResourceDelta}]{actual}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a92403097c85752447ef41af7e0b7fbb1}
+
+
+Definition at line 64 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_af86bdd78ff0d38e681f50a2649e79f69}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!assertTrue@{assertTrue}}
+\index{assertTrue@{assertTrue}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{assertTrue}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.assertTrue (
+\begin{DoxyParamCaption}
+\item[{IResourceDelta}]{expected}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_af86bdd78ff0d38e681f50a2649e79f69}
+
+
+Definition at line 58 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a39a0f6b04970d743d014774dbc9f9a33}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!clearDelta@{clearDelta}}
+\index{clearDelta@{clearDelta}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{clearDelta}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.clearDelta (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a39a0f6b04970d743d014774dbc9f9a33}
+
+
+Definition at line 49 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a39c673b4dfd9b458b23e3b66c92b29bd}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!contains@{contains}}
+\index{contains@{contains}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{contains}]{\setlength{\rightskip}{0pt plus 5cm}static boolean org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.contains (
+\begin{DoxyParamCaption}
+\item[{IResourceDelta\mbox{[}$\,$\mbox{]}}]{expectedChildren, }
+\item[{IResourceDelta}]{actualDelta}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a39c673b4dfd9b458b23e3b66c92b29bd}
+
+
+Definition at line 167 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a58dde27f4b384906fdfeeede2e811f13}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!getActualChildren@{getActualChildren}}
+\index{getActualChildren@{getActualChildren}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{getActualChildren}]{\setlength{\rightskip}{0pt plus 5cm}static IResourceDelta \mbox{[}$\,$\mbox{]} org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.getActualChildren (
+\begin{DoxyParamCaption}
+\item[{IResourceDelta}]{delta, }
+\item[{IResourceDelta\mbox{[}$\,$\mbox{]}}]{expectedChildren}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a58dde27f4b384906fdfeeede2e811f13}
+
+
+Definition at line 139 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_aa98e75738fb52c2e8fb9b30a17f03697}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!getExpectedChildren@{getExpectedChildren}}
+\index{getExpectedChildren@{getExpectedChildren}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{getExpectedChildren}]{\setlength{\rightskip}{0pt plus 5cm}static IResourceDelta \mbox{[}$\,$\mbox{]} org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.getExpectedChildren (
+\begin{DoxyParamCaption}
+\item[{IResourceDelta}]{delta}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_aa98e75738fb52c2e8fb9b30a17f03697}
+
+
+Definition at line 112 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_af6489f606abe93b8ab14716e64fcfa7d}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!isIgnorable@{isIgnorable}}
+\index{isIgnorable@{isIgnorable}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{isIgnorable}]{\setlength{\rightskip}{0pt plus 5cm}static boolean org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.isIgnorable (
+\begin{DoxyParamCaption}
+\item[{IResource}]{resource}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_af6489f606abe93b8ab14716e64fcfa7d}
+
+
+Definition at line 132 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a9522bbcc5d0fb447e6bd719e9e94a0b1}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!isSameResourceInCopy@{isSameResourceInCopy}}
+\index{isSameResourceInCopy@{isSameResourceInCopy}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{isSameResourceInCopy}]{\setlength{\rightskip}{0pt plus 5cm}static boolean org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.isSameResourceInCopy (
+\begin{DoxyParamCaption}
+\item[{IResource}]{expected, }
+\item[{IResource}]{actual}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a9522bbcc5d0fb447e6bd719e9e94a0b1}
+
+
+Definition at line 176 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_ad4565e82ca60b09a0b8c1161009e4dba}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!validateChange@{validateChange}}
+\index{validateChange@{validateChange}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{validateChange}]{\setlength{\rightskip}{0pt plus 5cm}IStatus org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.validateChange (
+\begin{DoxyParamCaption}
+\item[{IResourceDelta}]{delta, }
+\item[{IProgressMonitor}]{pm}
+\end{DoxyParamCaption}
+)}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_ad4565e82ca60b09a0b8c1161009e4dba}
+
+
+Definition at line 53 of file TestModelProvider.java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a34c064542b9901265edfad9cc8e10c97}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!COMPARATOR@{COMPARATOR}}
+\index{COMPARATOR@{COMPARATOR}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{COMPARATOR}]{\setlength{\rightskip}{0pt plus 5cm}final Comparator {\bf org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.COMPARATOR} = new {\bf Sorter}()\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a34c064542b9901265edfad9cc8e10c97}
+
+
+Definition at line 41 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_afeec450fba96b7a08c116bdb00def0f2}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!IS\_\-COPY\_\-TEST@{IS\_\-COPY\_\-TEST}}
+\index{IS\_\-COPY\_\-TEST@{IS\_\-COPY\_\-TEST}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{IS\_\-COPY\_\-TEST}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.IS\_\-COPY\_\-TEST}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_afeec450fba96b7a08c116bdb00def0f2}
+
+
+Definition at line 44 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a34af87493dbe2276d2bf42a910f5111d}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!LAST\_\-DELTA@{LAST\_\-DELTA}}
+\index{LAST\_\-DELTA@{LAST\_\-DELTA}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{LAST\_\-DELTA}]{\setlength{\rightskip}{0pt plus 5cm}IResourceDelta {\bf org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.LAST\_\-DELTA}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_a34af87493dbe2276d2bf42a910f5111d}
+
+
+Definition at line 43 of file TestModelProvider.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_aa3f53621c627feb54da436301e629de8}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}!PRE\_\-DELTA\_\-FLAGS@{PRE\_\-DELTA\_\-FLAGS}}
+\index{PRE\_\-DELTA\_\-FLAGS@{PRE\_\-DELTA\_\-FLAGS}!org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider@{org::eclipse::jdt::ui::tests::refactoring::infra::TestModelProvider}}
+\subsubsection[{PRE\_\-DELTA\_\-FLAGS}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.PRE\_\-DELTA\_\-FLAGS}\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_aa3f53621c627feb54da436301e629de8}
+{\bfseries Initial value:}
+\begin{DoxyCode}
+ IResourceDelta.CONTENT | IResourceDelta.MOVED_TO | 
+          IResourceDelta.MOVED_FROM | IResourceDelta.OPEN
+\end{DoxyCode}
+
+
+Definition at line 46 of file TestModelProvider.java.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana.tests/src/org/eclipse/jdt/ui/tests/refactoring/infra/\hyperlink{TestModelProvider_8java}{TestModelProvider.java}\end{DoxyCompactItemize}

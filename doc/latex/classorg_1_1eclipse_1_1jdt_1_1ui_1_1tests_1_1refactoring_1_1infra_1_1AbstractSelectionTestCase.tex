@@ -1,0 +1,360 @@
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase}{
+\section{org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase Class Reference}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase}\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+}
+Inheritance diagram for org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a603bdc23109cc1adba274af4a2b339d5}{AbstractSelectionTestCase} (String name)
+\item 
+\hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ab91e1c56973904a647aa740708b69683}{AbstractSelectionTestCase} (String name, boolean ignoreSelectionMarker)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a8eb0547bed07d3a385682187b000924a}{SQUARE\_\-BRACKET\_\-OPEN} = \char`\"{}/$\ast$\mbox{[}$\ast$/\char`\"{}
+\item 
+static final int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a1828ebda4e99645d7bee1fd31474b139}{SQUARE\_\-BRACKET\_\-OPEN\_\-LENGTH} = SQUARE\_\-BRACKET\_\-OPEN.length()
+\item 
+static final String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_aaa811e067deac78f619afe57541dfb8f}{SQUARE\_\-BRACKET\_\-CLOSE} = \char`\"{}/$\ast$\mbox{]}$\ast$/\char`\"{}
+\item 
+static final int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a37490586308d38bb5c17f88d7238f8cb}{SQUARE\_\-BRACKET\_\-CLOSE\_\-LENGTH} = SQUARE\_\-BRACKET\_\-CLOSE.length()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_afa623e665ca6449172495129f9671f1f}{setUp} ()  throws Exception 
+\item 
+int\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a45dd3bd91b81741785f4fc7a073423c4}{getSelection} ()
+\item 
+ITextSelection \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_acc852dbf404c1d71b07d59df5f822fae}{getTextSelection} ()
+\item 
+InputStream \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a364631380a7cc9fd8cf1d8e9b5de1203}{getFileInputStream} (String fileName)  throws IOException 
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ae437aa33d8cb498dc086f0eb5e3dc5bf}{getFileContents} (InputStream in)  throws IOException 
+\item 
+void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_acc8202e16b4e0ae0c820babdf3130d05}{performTest} (final ICompilationUnit unit, final Refactoring refactoring, int mode, final String out, boolean doUndo)  throws Exception 
+\item 
+RefactoringStatus \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a38eaa47f10cbc3eede9e17ca00e8646b}{checkPreconditions} (Refactoring refactoring, IProgressMonitor pm)  throws CoreException 
+\item 
+int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_aafe20ade6f1fcc1330841c9da4f89e49}{getCheckingStyle} ()
+\item 
+void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a7572d65fbb489fba7c433d2db1a59ab0}{clearPreDelta} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ae733270535b4b83e0498a76a251bf7e9}{fIsPreDeltaTest}
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ad3d8d4dd2004b2fdab94d0dbb003304d}{VALID\_\-SELECTION} = 1
+\item 
+static final int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a87e51300c32b4669f9f9dfa1311794ee}{INVALID\_\-SELECTION} = 2
+\item 
+static final int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a2c7ec843ae02d8a10a949a31717b1eee}{COMPARE\_\-WITH\_\-OUTPUT} = 3
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a10f1e0999d71184b4ee062671713e415}{initializeSelection} (String source)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a691421d932b78353f64606f8ec2092e1}{fIgnoreSelectionMarker}
+\item 
+int\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ad2eec97bb16037d6c237076148847e7e}{fSelection}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 44 of file AbstractSelectionTestCase.java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a603bdc23109cc1adba274af4a2b339d5}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!AbstractSelectionTestCase@{AbstractSelectionTestCase}}
+\index{AbstractSelectionTestCase@{AbstractSelectionTestCase}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{AbstractSelectionTestCase}]{\setlength{\rightskip}{0pt plus 5cm}org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.AbstractSelectionTestCase (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a603bdc23109cc1adba274af4a2b339d5}
+
+
+Definition at line 59 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ab91e1c56973904a647aa740708b69683}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!AbstractSelectionTestCase@{AbstractSelectionTestCase}}
+\index{AbstractSelectionTestCase@{AbstractSelectionTestCase}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{AbstractSelectionTestCase}]{\setlength{\rightskip}{0pt plus 5cm}org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.AbstractSelectionTestCase (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{boolean}]{ignoreSelectionMarker}
+\end{DoxyParamCaption}
+)}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ab91e1c56973904a647aa740708b69683}
+
+
+Definition at line 63 of file AbstractSelectionTestCase.java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a38eaa47f10cbc3eede9e17ca00e8646b}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!checkPreconditions@{checkPreconditions}}
+\index{checkPreconditions@{checkPreconditions}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{checkPreconditions}]{\setlength{\rightskip}{0pt plus 5cm}RefactoringStatus org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.checkPreconditions (
+\begin{DoxyParamCaption}
+\item[{Refactoring}]{refactoring, }
+\item[{IProgressMonitor}]{pm}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a38eaa47f10cbc3eede9e17ca00e8646b}
+
+
+Definition at line 148 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a7572d65fbb489fba7c433d2db1a59ab0}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!clearPreDelta@{clearPreDelta}}
+\index{clearPreDelta@{clearPreDelta}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{clearPreDelta}]{\setlength{\rightskip}{0pt plus 5cm}void org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.clearPreDelta (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a7572d65fbb489fba7c433d2db1a59ab0}
+
+
+Definition at line 158 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_aafe20ade6f1fcc1330841c9da4f89e49}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!getCheckingStyle@{getCheckingStyle}}
+\index{getCheckingStyle@{getCheckingStyle}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{getCheckingStyle}]{\setlength{\rightskip}{0pt plus 5cm}int org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.getCheckingStyle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_aafe20ade6f1fcc1330841c9da4f89e49}
+
+
+Definition at line 154 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ae437aa33d8cb498dc086f0eb5e3dc5bf}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!getFileContents@{getFileContents}}
+\index{getFileContents@{getFileContents}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{getFileContents}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.getFileContents (
+\begin{DoxyParamCaption}
+\item[{InputStream}]{in}
+\end{DoxyParamCaption}
+)  throws IOException \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ae437aa33d8cb498dc086f0eb5e3dc5bf}
+
+
+Reimplemented from \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a02531a52a351ea73e36a6b2ed9dd9fb6}{org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase}.
+
+
+
+Definition at line 86 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a364631380a7cc9fd8cf1d8e9b5de1203}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!getFileInputStream@{getFileInputStream}}
+\index{getFileInputStream@{getFileInputStream}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{getFileInputStream}]{\setlength{\rightskip}{0pt plus 5cm}InputStream org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.getFileInputStream (
+\begin{DoxyParamCaption}
+\item[{String}]{fileName}
+\end{DoxyParamCaption}
+)  throws IOException \hspace{0.3cm}{\ttfamily  \mbox{[}protected, virtual\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a364631380a7cc9fd8cf1d8e9b5de1203}
+
+
+Implements \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_aecf84200ebd3a82e4a8b515d57f5824e}{org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase}.
+
+
+
+Definition at line 82 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a45dd3bd91b81741785f4fc7a073423c4}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!getSelection@{getSelection}}
+\index{getSelection@{getSelection}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{getSelection}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.getSelection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a45dd3bd91b81741785f4fc7a073423c4}
+
+
+Definition at line 73 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_acc852dbf404c1d71b07d59df5f822fae}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!getTextSelection@{getTextSelection}}
+\index{getTextSelection@{getTextSelection}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{getTextSelection}]{\setlength{\rightskip}{0pt plus 5cm}ITextSelection org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.getTextSelection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_acc852dbf404c1d71b07d59df5f822fae}
+
+
+Definition at line 77 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a10f1e0999d71184b4ee062671713e415}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!initializeSelection@{initializeSelection}}
+\index{initializeSelection@{initializeSelection}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{initializeSelection}]{\setlength{\rightskip}{0pt plus 5cm}void org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.initializeSelection (
+\begin{DoxyParamCaption}
+\item[{String}]{source}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a10f1e0999d71184b4ee062671713e415}
+
+
+Definition at line 162 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_acc8202e16b4e0ae0c820babdf3130d05}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!performTest@{performTest}}
+\index{performTest@{performTest}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{performTest}]{\setlength{\rightskip}{0pt plus 5cm}void org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.performTest (
+\begin{DoxyParamCaption}
+\item[{final ICompilationUnit}]{unit, }
+\item[{final Refactoring}]{refactoring, }
+\item[{int}]{mode, }
+\item[{final String}]{out, }
+\item[{boolean}]{doUndo}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_acc8202e16b4e0ae0c820babdf3130d05}
+
+
+Definition at line 96 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_afa623e665ca6449172495129f9671f1f}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!setUp@{setUp}}
+\index{setUp@{setUp}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{setUp}]{\setlength{\rightskip}{0pt plus 5cm}void org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.setUp (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_afa623e665ca6449172495129f9671f1f}
+
+
+Reimplemented in \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests_afb718ed747bbde75a5d5c4e955915def}{edu.illinois.canistelCassabanana.tests.RemoveDuplicateCodeInConstructorsRefactoringTests}.
+
+
+
+Definition at line 68 of file AbstractSelectionTestCase.java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a2c7ec843ae02d8a10a949a31717b1eee}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!COMPARE\_\-WITH\_\-OUTPUT@{COMPARE\_\-WITH\_\-OUTPUT}}
+\index{COMPARE\_\-WITH\_\-OUTPUT@{COMPARE\_\-WITH\_\-OUTPUT}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{COMPARE\_\-WITH\_\-OUTPUT}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.COMPARE\_\-WITH\_\-OUTPUT} = 3\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a2c7ec843ae02d8a10a949a31717b1eee}
+
+
+Definition at line 53 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a691421d932b78353f64606f8ec2092e1}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!fIgnoreSelectionMarker@{fIgnoreSelectionMarker}}
+\index{fIgnoreSelectionMarker@{fIgnoreSelectionMarker}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{fIgnoreSelectionMarker}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.fIgnoreSelectionMarker}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a691421d932b78353f64606f8ec2092e1}
+
+
+Definition at line 55 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ae733270535b4b83e0498a76a251bf7e9}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!fIsPreDeltaTest@{fIsPreDeltaTest}}
+\index{fIsPreDeltaTest@{fIsPreDeltaTest}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{fIsPreDeltaTest}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.fIsPreDeltaTest}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ae733270535b4b83e0498a76a251bf7e9}
+
+
+Definition at line 57 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ad2eec97bb16037d6c237076148847e7e}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!fSelection@{fSelection}}
+\index{fSelection@{fSelection}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{fSelection}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} {\bf org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.fSelection}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ad2eec97bb16037d6c237076148847e7e}
+
+
+Definition at line 56 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a87e51300c32b4669f9f9dfa1311794ee}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!INVALID\_\-SELECTION@{INVALID\_\-SELECTION}}
+\index{INVALID\_\-SELECTION@{INVALID\_\-SELECTION}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{INVALID\_\-SELECTION}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.INVALID\_\-SELECTION} = 2\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a87e51300c32b4669f9f9dfa1311794ee}
+
+
+Definition at line 52 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_aaa811e067deac78f619afe57541dfb8f}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!SQUARE\_\-BRACKET\_\-CLOSE@{SQUARE\_\-BRACKET\_\-CLOSE}}
+\index{SQUARE\_\-BRACKET\_\-CLOSE@{SQUARE\_\-BRACKET\_\-CLOSE}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{SQUARE\_\-BRACKET\_\-CLOSE}]{\setlength{\rightskip}{0pt plus 5cm}final String {\bf org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.SQUARE\_\-BRACKET\_\-CLOSE} = \char`\"{}/$\ast$\mbox{]}$\ast$/\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_aaa811e067deac78f619afe57541dfb8f}
+
+
+Definition at line 48 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a37490586308d38bb5c17f88d7238f8cb}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!SQUARE\_\-BRACKET\_\-CLOSE\_\-LENGTH@{SQUARE\_\-BRACKET\_\-CLOSE\_\-LENGTH}}
+\index{SQUARE\_\-BRACKET\_\-CLOSE\_\-LENGTH@{SQUARE\_\-BRACKET\_\-CLOSE\_\-LENGTH}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{SQUARE\_\-BRACKET\_\-CLOSE\_\-LENGTH}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.SQUARE\_\-BRACKET\_\-CLOSE\_\-LENGTH} = SQUARE\_\-BRACKET\_\-CLOSE.length()\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a37490586308d38bb5c17f88d7238f8cb}
+
+
+Definition at line 49 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a8eb0547bed07d3a385682187b000924a}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!SQUARE\_\-BRACKET\_\-OPEN@{SQUARE\_\-BRACKET\_\-OPEN}}
+\index{SQUARE\_\-BRACKET\_\-OPEN@{SQUARE\_\-BRACKET\_\-OPEN}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{SQUARE\_\-BRACKET\_\-OPEN}]{\setlength{\rightskip}{0pt plus 5cm}final String {\bf org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.SQUARE\_\-BRACKET\_\-OPEN} = \char`\"{}/$\ast$\mbox{[}$\ast$/\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a8eb0547bed07d3a385682187b000924a}
+
+
+Definition at line 46 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a1828ebda4e99645d7bee1fd31474b139}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!SQUARE\_\-BRACKET\_\-OPEN\_\-LENGTH@{SQUARE\_\-BRACKET\_\-OPEN\_\-LENGTH}}
+\index{SQUARE\_\-BRACKET\_\-OPEN\_\-LENGTH@{SQUARE\_\-BRACKET\_\-OPEN\_\-LENGTH}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{SQUARE\_\-BRACKET\_\-OPEN\_\-LENGTH}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.SQUARE\_\-BRACKET\_\-OPEN\_\-LENGTH} = SQUARE\_\-BRACKET\_\-OPEN.length()\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a1828ebda4e99645d7bee1fd31474b139}
+
+
+Definition at line 47 of file AbstractSelectionTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ad3d8d4dd2004b2fdab94d0dbb003304d}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}!VALID\_\-SELECTION@{VALID\_\-SELECTION}}
+\index{VALID\_\-SELECTION@{VALID\_\-SELECTION}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase}}
+\subsubsection[{VALID\_\-SELECTION}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase.VALID\_\-SELECTION} = 1\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ad3d8d4dd2004b2fdab94d0dbb003304d}
+
+
+Definition at line 51 of file AbstractSelectionTestCase.java.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana.tests/src/org/eclipse/jdt/ui/tests/refactoring/infra/\hyperlink{AbstractSelectionTestCase_8java}{AbstractSelectionTestCase.java}\end{DoxyCompactItemize}

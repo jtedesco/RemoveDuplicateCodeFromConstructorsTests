@@ -1,0 +1,258 @@
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase}{
+\section{org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase Class Reference}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase}\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+}
+Inheritance diagram for org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_aa8d8ed3e9ce021b079b4ffa9a3c573c0}{AbstractCUTestCase} (String name)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7af731217d1ff12f694de08a938dc798}{compareSource} (String refactored, String proofed)
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7e3b924599e026898032cffde644ad1c}{compareSource} (String refactored, String proofed, boolean skipPackageDeclaration)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a02531a52a351ea73e36a6b2ed9dd9fb6}{getFileContents} (InputStream in)  throws IOException 
+\item 
+ICompilationUnit \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a82307dbcd596eca9b08353a26fbd078c}{createCU} (IPackageFragment pack, String name, String contents)  throws Exception 
+\item 
+ICompilationUnit \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7b3fba841cb353c04dfaf9f2577b0bfb}{createCU} (IPackageFragment pack, String name, InputStream contents)  throws Exception 
+\item 
+abstract InputStream \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_aecf84200ebd3a82e4a8b515d57f5824e}{getFileInputStream} (String fileName)  throws IOException
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_af528a2aad4ad4b54cbb0ed9f4b063175}{getResourceLocation} ()
+\item 
+ICompilationUnit \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7dfc8731b717ee2c845b0c97ec8636db}{createCU} (IPackageFragment pack, String name)  throws Exception 
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7481c52242657cf1bdb909a600e106f4}{adaptName} (String name)
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_ae927331591546902a3faff7c20e06bea}{getProofedContent} (String folder, String name)  throws Exception 
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a3c9c375796dee3288b215417ddab11b4}{getFilePath} (String path, String name)
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_aa61963a3374a4382a79623c37aa860c8}{getFilePath} (IPackageFragment pack, String name)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 24 of file AbstractCUTestCase.java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_aa8d8ed3e9ce021b079b4ffa9a3c573c0}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!AbstractCUTestCase@{AbstractCUTestCase}}
+\index{AbstractCUTestCase@{AbstractCUTestCase}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{AbstractCUTestCase}]{\setlength{\rightskip}{0pt plus 5cm}org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.AbstractCUTestCase (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_aa8d8ed3e9ce021b079b4ffa9a3c573c0}
+
+
+Definition at line 26 of file AbstractCUTestCase.java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7481c52242657cf1bdb909a600e106f4}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!adaptName@{adaptName}}
+\index{adaptName@{adaptName}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{adaptName}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.adaptName (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7481c52242657cf1bdb909a600e106f4}
+
+
+Reimplemented in \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests_aeb1da62dad72af83ae5fee23034c9c40}{edu.illinois.canistelCassabanana.tests.RemoveDuplicateCodeInConstructorsRefactoringTests}.
+
+
+
+Definition at line 67 of file AbstractCUTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7af731217d1ff12f694de08a938dc798}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!compareSource@{compareSource}}
+\index{compareSource@{compareSource}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{compareSource}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.compareSource (
+\begin{DoxyParamCaption}
+\item[{String}]{refactored, }
+\item[{String}]{proofed}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7af731217d1ff12f694de08a938dc798}
+
+
+Definition at line 86 of file AbstractCUTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7e3b924599e026898032cffde644ad1c}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!compareSource@{compareSource}}
+\index{compareSource@{compareSource}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{compareSource}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.compareSource (
+\begin{DoxyParamCaption}
+\item[{String}]{refactored, }
+\item[{String}]{proofed, }
+\item[{boolean}]{skipPackageDeclaration}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7e3b924599e026898032cffde644ad1c}
+
+
+Definition at line 90 of file AbstractCUTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7dfc8731b717ee2c845b0c97ec8636db}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!createCU@{createCU}}
+\index{createCU@{createCU}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{createCU}]{\setlength{\rightskip}{0pt plus 5cm}ICompilationUnit org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.createCU (
+\begin{DoxyParamCaption}
+\item[{IPackageFragment}]{pack, }
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7dfc8731b717ee2c845b0c97ec8636db}
+
+
+Definition at line 62 of file AbstractCUTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a82307dbcd596eca9b08353a26fbd078c}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!createCU@{createCU}}
+\index{createCU@{createCU}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{createCU}]{\setlength{\rightskip}{0pt plus 5cm}ICompilationUnit org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.createCU (
+\begin{DoxyParamCaption}
+\item[{IPackageFragment}]{pack, }
+\item[{String}]{name, }
+\item[{String}]{contents}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a82307dbcd596eca9b08353a26fbd078c}
+
+
+Definition at line 44 of file AbstractCUTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7b3fba841cb353c04dfaf9f2577b0bfb}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!createCU@{createCU}}
+\index{createCU@{createCU}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{createCU}]{\setlength{\rightskip}{0pt plus 5cm}ICompilationUnit org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.createCU (
+\begin{DoxyParamCaption}
+\item[{IPackageFragment}]{pack, }
+\item[{String}]{name, }
+\item[{InputStream}]{contents}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a7b3fba841cb353c04dfaf9f2577b0bfb}
+
+
+Definition at line 50 of file AbstractCUTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a02531a52a351ea73e36a6b2ed9dd9fb6}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!getFileContents@{getFileContents}}
+\index{getFileContents@{getFileContents}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{getFileContents}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.getFileContents (
+\begin{DoxyParamCaption}
+\item[{InputStream}]{in}
+\end{DoxyParamCaption}
+)  throws IOException \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a02531a52a351ea73e36a6b2ed9dd9fb6}
+
+
+Reimplemented in \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_ae437aa33d8cb498dc086f0eb5e3dc5bf}{org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase}.
+
+
+
+Definition at line 30 of file AbstractCUTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_aecf84200ebd3a82e4a8b515d57f5824e}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!getFileInputStream@{getFileInputStream}}
+\index{getFileInputStream@{getFileInputStream}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{getFileInputStream}]{\setlength{\rightskip}{0pt plus 5cm}abstract InputStream org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.getFileInputStream (
+\begin{DoxyParamCaption}
+\item[{String}]{fileName}
+\end{DoxyParamCaption}
+)  throws IOException\hspace{0.3cm}{\ttfamily  \mbox{[}protected, pure virtual\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_aecf84200ebd3a82e4a8b515d57f5824e}
+
+
+Implemented in \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase_a364631380a7cc9fd8cf1d8e9b5de1203}{org.eclipse.jdt.ui.tests.refactoring.infra.AbstractSelectionTestCase}.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a3c9c375796dee3288b215417ddab11b4}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!getFilePath@{getFilePath}}
+\index{getFilePath@{getFilePath}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{getFilePath}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.getFilePath (
+\begin{DoxyParamCaption}
+\item[{String}]{path, }
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_a3c9c375796dee3288b215417ddab11b4}
+
+
+Definition at line 76 of file AbstractCUTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_aa61963a3374a4382a79623c37aa860c8}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!getFilePath@{getFilePath}}
+\index{getFilePath@{getFilePath}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{getFilePath}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.getFilePath (
+\begin{DoxyParamCaption}
+\item[{IPackageFragment}]{pack, }
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_aa61963a3374a4382a79623c37aa860c8}
+
+
+Definition at line 80 of file AbstractCUTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_ae927331591546902a3faff7c20e06bea}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!getProofedContent@{getProofedContent}}
+\index{getProofedContent@{getProofedContent}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{getProofedContent}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.getProofedContent (
+\begin{DoxyParamCaption}
+\item[{String}]{folder, }
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_ae927331591546902a3faff7c20e06bea}
+
+
+Definition at line 71 of file AbstractCUTestCase.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_af528a2aad4ad4b54cbb0ed9f4b063175}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}!getResourceLocation@{getResourceLocation}}
+\index{getResourceLocation@{getResourceLocation}!org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase@{org::eclipse::jdt::ui::tests::refactoring::infra::AbstractCUTestCase}}
+\subsubsection[{getResourceLocation}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.AbstractCUTestCase.getResourceLocation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase_af528a2aad4ad4b54cbb0ed9f4b063175}
+
+
+Reimplemented in \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests_ae1e7b0a9eb31811720730a644c2e116a}{edu.illinois.canistelCassabanana.tests.RemoveDuplicateCodeInConstructorsRefactoringTests}.
+
+
+
+Definition at line 58 of file AbstractCUTestCase.java.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana.tests/src/org/eclipse/jdt/ui/tests/refactoring/infra/\hyperlink{AbstractCUTestCase_8java}{AbstractCUTestCase.java}\end{DoxyCompactItemize}

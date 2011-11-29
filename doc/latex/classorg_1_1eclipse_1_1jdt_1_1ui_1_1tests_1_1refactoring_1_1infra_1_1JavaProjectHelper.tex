@@ -1,0 +1,1143 @@
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper}{
+\section{org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper Class Reference}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper}\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_1_1ImportOverwriteQuery}{ImportOverwriteQuery}
+\item 
+class \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_1_1Requestor}{Requestor}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static IJavaProject \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8b7b9e680b2757f0cf2dbed6972422e8}{createJavaProject} (String projectName, String binFolderName)  throws CoreException 
+\item 
+static IJavaProject \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a3b76ed2e1cd6b7e11fec59ba4e60b04b}{createJavaProjectWithJUnitSource} (String projectName, String srcContainerName, String outputFolderName)  throws CoreException, IOException, InvocationTargetException 
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a1aa1a0ef7d7adba1862ba8bc6254baa2}{set15CompilerOptions} (IJavaProject project)
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a0ac66e905c063a83ad51194c310f1e6a}{set14CompilerOptions} (IJavaProject project)
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8e1c9f655eb4dd2dd754dc04e0b1c5fd}{set15CompilerOptions} (Map options)
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a83b10b111cb7702370fb6581219c9417}{set14CompilerOptions} (Map options)
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a97c8f1ec5471ba53d2a6ed372ffda525}{set13CompilerOptions} (Map options)
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a5e54a9c4511173e7739ce8e809c325c9}{delete} (final IJavaElement elem)  throws CoreException 
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a5a34fceaddd0e5312f04f4bfe6f1ed3c}{clear} (final IJavaProject jproject, final IClasspathEntry\mbox{[}$\,$\mbox{]} entries)  throws CoreException 
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a0e82eb3a6de8503e44d0a1775fb9623d}{performDummySearch} ()  throws JavaModelException 
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8008eaafbd39eb06ab3c6b874ebd9484}{addSourceContainer} (IJavaProject jproject, String containerName)  throws CoreException 
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ace1239a14d7b65c4287fa93bcf59e76c}{addSourceContainer} (IJavaProject jproject, String containerName, IPath\mbox{[}$\,$\mbox{]} exclusionFilters)  throws CoreException 
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a82d933ec9c5428ddbfd959164c55639a}{addSourceContainer} (IJavaProject jproject, String containerName, IPath\mbox{[}$\,$\mbox{]} inclusionFilters, IPath\mbox{[}$\,$\mbox{]} exclusionFilters)  throws CoreException 
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a4175c17b9c618d32ec2971208da64e44}{removeSourceContainer} (IJavaProject jproject, String containerName)  throws CoreException 
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ad5f22d81a4e9791fbdd1aae0f2d10944}{addLibrary} (IJavaProject jproject, IPath path)  throws JavaModelException 
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a82fc7893776a175c970887bc7323e31f}{addLibrary} (IJavaProject jproject, IPath path, IPath sourceAttachPath, IPath sourceAttachRoot)  throws JavaModelException 
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a20d5c750bf46195dc94e15790258fa92}{addLibraryWithImport} (IJavaProject jproject, IPath jarPath, IPath sourceAttachPath, IPath sourceAttachRoot)  throws IOException, CoreException 
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a47c45b1af3293b1f5db87cce3b892152}{addClassFolder} (IJavaProject jproject, String containerName, IPath sourceAttachPath, IPath sourceAttachRoot)  throws CoreException 
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_abb71254ee77bb408bcc8548cbff929d4}{addRTJar} (IJavaProject jproject)  throws CoreException 
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a5aa5a608ebe3f6166d0602cff8f0b287}{addRTJar13} (IJavaProject jproject)  throws CoreException 
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a7e6b8708c3654735401aada6361bf128}{addVariableEntry} (IJavaProject jproject, IPath path, IPath sourceAttachPath, IPath sourceAttachRoot)  throws JavaModelException 
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a252762e5a7a167af5ed1daef48c2b44f}{addVariableRTJar13} (IJavaProject jproject, String libVarName, String srcVarName, String srcrootVarName)  throws CoreException 
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_af1d1929b81b3bfe9239d1fa08fd1be55}{addVariableRTJar} (IJavaProject jproject, String libVarName, String srcVarName, String srcrootVarName)  throws CoreException 
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8a4fbd1681cc573e31464659185436a7}{addRequiredProject} (IJavaProject jproject, IJavaProject required)  throws JavaModelException 
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab75bf11f00d22be3e81050263a30f7a1}{removeFromClasspath} (IJavaProject jproject, IPath path)  throws JavaModelException 
+\item 
+static boolean \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_aca056a0f02d0f464b7319c236786a30c}{setAutoBuilding} (boolean state)  throws CoreException 
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_acb2cb3f2f31117a9663e43d3e5f2dea4}{addToClasspath} (IJavaProject jproject, IClasspathEntry cpe)  throws JavaModelException 
+\item 
+static IPath\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ac1bceee3b24e6bfbc268488ab6a32b57}{findRtJar} (IPath rtStubsPath)  throws CoreException 
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a3fa084c31202066bae7e3139d5a47f41}{importResources} (IContainer importTarget, String bundleSourcePath)  throws CoreException, IOException 
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final IPath \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a25c1dc7863be515c696975db13e6908e}{RT\_\-STUBS\_\-13} = new Path(\char`\"{}testresources/rtstubs.jar\char`\"{})
+\item 
+static final IPath \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_af51571e2c282dc955d763c8aa6d74d0b}{JUNIT\_\-SRC} = new Path(\char`\"{}testresources/junit37-\/noUI-\/src.zip\char`\"{})
+\item 
+static final IPath \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab9682099e6b3300bd32cf650a6bb9b8a}{RT\_\-STUBS\_\-15} = new Path(\char`\"{}testresources/rtstubs15.jar\char`\"{})
+\item 
+static final IPath \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a31fe8a61eb699994d99273c9d3996172}{JUNIT\_\-SRC\_\-381} = new Path(\char`\"{}testresources/junit381-\/noUI-\/src.zip\char`\"{})
+\item 
+static final String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a4800d44dacf636af372611d1ffb6d8a1}{JUNIT\_\-SRC\_\-ENCODING} = \char`\"{}ISO-\/8859-\/1\char`\"{}
+\item 
+static final IPath \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_aaf4b86adc0576d9e3eba268ab1afee22}{MYLIB} = new Path(\char`\"{}testresources/mylib.jar\char`\"{})
+\item 
+static final IPath \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab065fefae002b3356342e1ff056da45c}{NLS\_\-LIB} = new Path(\char`\"{}testresources/nls.jar\char`\"{})
+\item 
+static final int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_aabe3ec975531ede97506dc8840f50c1e}{COUNT\_\-CLASSES\_\-RT\_\-STUBS\_\-15} = 661
+\item 
+static final int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ada6902cb610a070f60612b3ae068f626}{COUNT\_\-INTERFACES\_\-RT\_\-STUBS\_\-15} = 135
+\item 
+static final int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_af0167a048adf755595853c19ef30b60d}{COUNT\_\-CLASSES\_\-JUNIT\_\-SRC\_\-381} = 76
+\item 
+static final int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a23d9cfacb334a7bded4ec4295b154352}{COUNT\_\-INTERFACES\_\-JUNIT\_\-SRC\_\-381} = 8
+\item 
+static final int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a0f75bcd17ac6c7fa55810a720858020a}{COUNT\_\-CLASSES\_\-MYLIB} = 3
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab0a541cfde36b441aa12978bc895e346}{addVariableRTJar} (IJavaProject jproject, IPath rtStubsPath, String libVarName, String srcVarName, String srcrootVarName)  throws CoreException 
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a3c33aa465ac14609504c8c7a013c36b7}{addNatureToProject} (IProject proj, String natureId, IProgressMonitor monitor)  throws CoreException 
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8b45a289f9403a104b4262a119f82351}{MAX\_\-RETRY} = 5
+\item 
+static final boolean \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ae1a510c7b10dbf64cd95cc379d58a350}{ASSERT\_\-NO\_\-MIXED\_\-LINE\_\-DELIMIERS} = false
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Helper methods to set up a IJavaProject. 
+
+Definition at line 67 of file JavaProjectHelper.java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a47c45b1af3293b1f5db87cce3b892152}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addClassFolder@{addClassFolder}}
+\index{addClassFolder@{addClassFolder}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addClassFolder}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addClassFolder (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{String}]{containerName, }
+\item[{IPath}]{sourceAttachPath, }
+\item[{IPath}]{sourceAttachRoot}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a47c45b1af3293b1f5db87cce3b892152}
+Creates and adds a class folder to the class path. 
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The parent project \\
+\hline
+{\em containerName} & \\
+\hline
+{\em sourceAttachPath} & The source attachment path \\
+\hline
+{\em sourceAttachRoot} & The source attachment root path \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The handle of the created root 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 479 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ad5f22d81a4e9791fbdd1aae0f2d10944}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addLibrary@{addLibrary}}
+\index{addLibrary@{addLibrary}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addLibrary}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addLibrary (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{IPath}]{path}
+\end{DoxyParamCaption}
+)  throws JavaModelException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ad5f22d81a4e9791fbdd1aae0f2d10944}
+Adds a library entry to a IJavaProject. 
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The parent project \\
+\hline
+{\em path} & The path of the library to add \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The handle of the created root 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em JavaModelException} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 425 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a82fc7893776a175c970887bc7323e31f}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addLibrary@{addLibrary}}
+\index{addLibrary@{addLibrary}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addLibrary}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addLibrary (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{IPath}]{path, }
+\item[{IPath}]{sourceAttachPath, }
+\item[{IPath}]{sourceAttachRoot}
+\end{DoxyParamCaption}
+)  throws JavaModelException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a82fc7893776a175c970887bc7323e31f}
+Adds a library entry with source attachment to a IJavaProject. 
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The parent project \\
+\hline
+{\em path} & The path of the library to add \\
+\hline
+{\em sourceAttachPath} & The source attachment path \\
+\hline
+{\em sourceAttachRoot} & The source attachment root path \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The handle of the created root 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em JavaModelException} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 438 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a20d5c750bf46195dc94e15790258fa92}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addLibraryWithImport@{addLibraryWithImport}}
+\index{addLibraryWithImport@{addLibraryWithImport}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addLibraryWithImport}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addLibraryWithImport (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{IPath}]{jarPath, }
+\item[{IPath}]{sourceAttachPath, }
+\item[{IPath}]{sourceAttachRoot}
+\end{DoxyParamCaption}
+)  throws IOException, CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a20d5c750bf46195dc94e15790258fa92}
+Copies the library into the project and adds it as library entry. 
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The parent project \\
+\hline
+{\em jarPath} & \\
+\hline
+{\em sourceAttachPath} & The source attachment path \\
+\hline
+{\em sourceAttachRoot} & The source attachment root path \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The handle of the created root 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & \\
+\hline
+{\em CoreException} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 455 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a3c33aa465ac14609504c8c7a013c36b7}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addNatureToProject@{addNatureToProject}}
+\index{addNatureToProject@{addNatureToProject}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addNatureToProject}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addNatureToProject (
+\begin{DoxyParamCaption}
+\item[{IProject}]{proj, }
+\item[{String}]{natureId, }
+\item[{IProgressMonitor}]{monitor}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a3c33aa465ac14609504c8c7a013c36b7}
+
+
+Definition at line 691 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8a4fbd1681cc573e31464659185436a7}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addRequiredProject@{addRequiredProject}}
+\index{addRequiredProject@{addRequiredProject}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addRequiredProject}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addRequiredProject (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{IJavaProject}]{required}
+\end{DoxyParamCaption}
+)  throws JavaModelException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8a4fbd1681cc573e31464659185436a7}
+Adds a required project entry. 
+\begin{DoxyParams}{Parameters}
+{\em jproject} & Parent project \\
+\hline
+{\em required} & Project to add to the build path \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em JavaModelException} & Creation failed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 626 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_abb71254ee77bb408bcc8548cbff929d4}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addRTJar@{addRTJar}}
+\index{addRTJar@{addRTJar}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addRTJar}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addRTJar (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_abb71254ee77bb408bcc8548cbff929d4}
+Creates and adds a class folder to the class path and imports all files contained in the given ZIP file. 
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The parent project \\
+\hline
+{\em containerName} & \\
+\hline
+{\em sourceAttachPath} & The source attachment path \\
+\hline
+{\em sourceAttachRoot} & The source attachment root path \\
+\hline
+{\em zipFile} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The handle of the created root 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & \\
+\hline
+{\em CoreException} & \\
+\hline
+{\em InvocationTargetException} & Adds a library entry pointing to a JRE (stubs only) and sets the right compiler options. \\
+\hline
+\end{DoxyExceptions}
+Currently, the compiler compliance level is 1.5.
+
+
+\begin{DoxyParams}{Parameters}
+{\em jproject} & target \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the new package fragment root 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 531 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a5aa5a608ebe3f6166d0602cff8f0b287}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addRTJar13@{addRTJar13}}
+\index{addRTJar13@{addRTJar13}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addRTJar13}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addRTJar13 (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a5aa5a608ebe3f6166d0602cff8f0b287}
+
+
+Definition at line 537 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8008eaafbd39eb06ab3c6b874ebd9484}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addSourceContainer@{addSourceContainer}}
+\index{addSourceContainer@{addSourceContainer}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addSourceContainer}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addSourceContainer (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{String}]{containerName}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8008eaafbd39eb06ab3c6b874ebd9484}
+Adds a source container to a IJavaProject. 
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The parent project \\
+\hline
+{\em containerName} & The name of the new source container \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The handle to the new source container 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & Creation failed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 319 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a82d933ec9c5428ddbfd959164c55639a}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addSourceContainer@{addSourceContainer}}
+\index{addSourceContainer@{addSourceContainer}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addSourceContainer}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addSourceContainer (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{String}]{containerName, }
+\item[{IPath\mbox{[}$\,$\mbox{]}}]{inclusionFilters, }
+\item[{IPath\mbox{[}$\,$\mbox{]}}]{exclusionFilters}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a82d933ec9c5428ddbfd959164c55639a}
+Adds a source container to a IJavaProject. 
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The parent project \\
+\hline
+{\em containerName} & The name of the new source container \\
+\hline
+{\em inclusionFilters} & Inclusion filters to set \\
+\hline
+{\em exclusionFilters} & Exclusion filters to set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The handle to the new source container 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & Creation failed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 344 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ace1239a14d7b65c4287fa93bcf59e76c}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addSourceContainer@{addSourceContainer}}
+\index{addSourceContainer@{addSourceContainer}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addSourceContainer}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addSourceContainer (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{String}]{containerName, }
+\item[{IPath\mbox{[}$\,$\mbox{]}}]{exclusionFilters}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ace1239a14d7b65c4287fa93bcf59e76c}
+Adds a source container to a IJavaProject. 
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The parent project \\
+\hline
+{\em containerName} & The name of the new source container \\
+\hline
+{\em exclusionFilters} & Exclusion filters to set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The handle to the new source container 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & Creation failed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 331 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_acb2cb3f2f31117a9663e43d3e5f2dea4}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addToClasspath@{addToClasspath}}
+\index{addToClasspath@{addToClasspath}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addToClasspath}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addToClasspath (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{IClasspathEntry}]{cpe}
+\end{DoxyParamCaption}
+)  throws JavaModelException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_acb2cb3f2f31117a9663e43d3e5f2dea4}
+
+
+Definition at line 661 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a7e6b8708c3654735401aada6361bf128}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addVariableEntry@{addVariableEntry}}
+\index{addVariableEntry@{addVariableEntry}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addVariableEntry}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addVariableEntry (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{IPath}]{path, }
+\item[{IPath}]{sourceAttachPath, }
+\item[{IPath}]{sourceAttachRoot}
+\end{DoxyParamCaption}
+)  throws JavaModelException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a7e6b8708c3654735401aada6361bf128}
+Adds a variable entry with source attachment to a IJavaProject. Can return null if variable can not be resolved. 
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The parent project \\
+\hline
+{\em path} & The variable path \\
+\hline
+{\em sourceAttachPath} & The source attachment path (variable path) \\
+\hline
+{\em sourceAttachRoot} & The source attachment root path (variable path) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The added package fragment root 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em JavaModelException} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 557 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_af1d1929b81b3bfe9239d1fa08fd1be55}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addVariableRTJar@{addVariableRTJar}}
+\index{addVariableRTJar@{addVariableRTJar}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addVariableRTJar}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addVariableRTJar (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{String}]{libVarName, }
+\item[{String}]{srcVarName, }
+\item[{String}]{srcrootVarName}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_af1d1929b81b3bfe9239d1fa08fd1be55}
+Adds a variable entry pointing to a current JRE (stubs only) and sets the compiler compliance level on the project accordingly. The arguments specify the names of the variables to be used. Currently, the compiler compliance level is set to 1.5.
+
+
+\begin{DoxyParams}{Parameters}
+{\em jproject} & the project to add the variable RT JAR \\
+\hline
+{\em libVarName} & Name of the variable for the library \\
+\hline
+{\em srcVarName} & Name of the variable for the source attachment. Can be {\ttfamily null}. \\
+\hline
+{\em srcrootVarName} & name of the variable for the source attachment root. Can be {\ttfamily null}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the new package fragment root 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & Creation failed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 584 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab0a541cfde36b441aa12978bc895e346}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addVariableRTJar@{addVariableRTJar}}
+\index{addVariableRTJar@{addVariableRTJar}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addVariableRTJar}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addVariableRTJar (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{IPath}]{rtStubsPath, }
+\item[{String}]{libVarName, }
+\item[{String}]{srcVarName, }
+\item[{String}]{srcrootVarName}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab0a541cfde36b441aa12978bc895e346}
+Adds a variable entry pointing to a current JRE (stubs only). The arguments specify the names of the variables to be used. Clients must not forget to set the right compiler compliance level on the project.
+
+
+\begin{DoxyParams}{Parameters}
+{\em jproject} & the project to add the variable RT JAR \\
+\hline
+{\em rtStubsPath} & path to an rt.jar \\
+\hline
+{\em libVarName} & name of the variable for the library \\
+\hline
+{\em srcVarName} & Name of the variable for the source attachment. Can be {\ttfamily null}. \\
+\hline
+{\em srcrootVarName} & Name of the variable for the source attachment root. Can be {\ttfamily null}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the new package fragment root 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & Creation failed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 601 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a252762e5a7a167af5ed1daef48c2b44f}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!addVariableRTJar13@{addVariableRTJar13}}
+\index{addVariableRTJar13@{addVariableRTJar13}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{addVariableRTJar13}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.addVariableRTJar13 (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{String}]{libVarName, }
+\item[{String}]{srcVarName, }
+\item[{String}]{srcrootVarName}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a252762e5a7a167af5ed1daef48c2b44f}
+
+
+Definition at line 567 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a5a34fceaddd0e5312f04f4bfe6f1ed3c}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!clear@{clear}}
+\index{clear@{clear}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.clear (
+\begin{DoxyParamCaption}
+\item[{final IJavaProject}]{jproject, }
+\item[{final IClasspathEntry\mbox{[}$\,$\mbox{]}}]{entries}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a5a34fceaddd0e5312f04f4bfe6f1ed3c}
+Removes all files in the project and sets the given classpath 
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The project to clear \\
+\hline
+{\em entries} & The default class path to set \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & Clearing the project failed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 279 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8b7b9e680b2757f0cf2dbed6972422e8}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!createJavaProject@{createJavaProject}}
+\index{createJavaProject@{createJavaProject}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{createJavaProject}]{\setlength{\rightskip}{0pt plus 5cm}static IJavaProject org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.createJavaProject (
+\begin{DoxyParamCaption}
+\item[{String}]{projectName, }
+\item[{String}]{binFolderName}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8b7b9e680b2757f0cf2dbed6972422e8}
+Creates a IJavaProject. 
+\begin{DoxyParams}{Parameters}
+{\em projectName} & The name of the project \\
+\hline
+{\em binFolderName} & Name of the output folder \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns the Java project handle 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & Project creation failed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 115 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a3b76ed2e1cd6b7e11fec59ba4e60b04b}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!createJavaProjectWithJUnitSource@{createJavaProjectWithJUnitSource}}
+\index{createJavaProjectWithJUnitSource@{createJavaProjectWithJUnitSource}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{createJavaProjectWithJUnitSource}]{\setlength{\rightskip}{0pt plus 5cm}static IJavaProject org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.createJavaProjectWithJUnitSource (
+\begin{DoxyParamCaption}
+\item[{String}]{projectName, }
+\item[{String}]{srcContainerName, }
+\item[{String}]{outputFolderName}
+\end{DoxyParamCaption}
+)  throws CoreException, IOException, InvocationTargetException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a3b76ed2e1cd6b7e11fec59ba4e60b04b}
+Creates a Java project with JUnit source and rt.jar from \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_af1d1929b81b3bfe9239d1fa08fd1be55}{addVariableRTJar(IJavaProject, String, String, String)}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em projectName} & the project name \\
+\hline
+{\em srcContainerName} & the source container name \\
+\hline
+{\em outputFolderName} & the output folder name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the IJavaProject 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & \\
+\hline
+{\em IOException} & \\
+\hline
+{\em InvocationTargetException} & \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySince}{Since}
+3.1 
+\end{DoxySince}
+
+
+Definition at line 164 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a5e54a9c4511173e7739ce8e809c325c9}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!delete@{delete}}
+\index{delete@{delete}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.delete (
+\begin{DoxyParamCaption}
+\item[{final IJavaElement}]{elem}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a5e54a9c4511173e7739ce8e809c325c9}
+Removes a IJavaElement
+
+
+\begin{DoxyParams}{Parameters}
+{\em elem} & The element to remove \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & Removing failed \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ae1a510c7b10dbf64cd95cc379d58a350}{ASSERT\_\-NO\_\-MIXED\_\-LINE\_\-DELIMIERS} 
+\end{DoxySeeAlso}
+
+
+Definition at line 241 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ac1bceee3b24e6bfbc268488ab6a32b57}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!findRtJar@{findRtJar}}
+\index{findRtJar@{findRtJar}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{findRtJar}]{\setlength{\rightskip}{0pt plus 5cm}static IPath \mbox{[}$\,$\mbox{]} org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.findRtJar (
+\begin{DoxyParamCaption}
+\item[{IPath}]{rtStubsPath}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ac1bceee3b24e6bfbc268488ab6a32b57}
+
+\begin{DoxyParams}{Parameters}
+{\em rtStubsPath} & the path to the RT stubs \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a rt.jar (stubs only) 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 680 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a3fa084c31202066bae7e3139d5a47f41}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!importResources@{importResources}}
+\index{importResources@{importResources}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{importResources}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.importResources (
+\begin{DoxyParamCaption}
+\item[{IContainer}]{importTarget, }
+\item[{String}]{bundleSourcePath}
+\end{DoxyParamCaption}
+)  throws CoreException, IOException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a3fa084c31202066bae7e3139d5a47f41}
+Imports resources from {\ttfamily bundleSourcePath} to {\ttfamily importTarget}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em importTarget} & the parent container \\
+\hline
+{\em bundleSourcePath} & the path to a folder containing resources\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & import failed \\
+\hline
+{\em IOException} & import failed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 720 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a0e82eb3a6de8503e44d0a1775fb9623d}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!performDummySearch@{performDummySearch}}
+\index{performDummySearch@{performDummySearch}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{performDummySearch}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.performDummySearch (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws JavaModelException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a0e82eb3a6de8503e44d0a1775fb9623d}
+
+
+Definition at line 298 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab75bf11f00d22be3e81050263a30f7a1}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!removeFromClasspath@{removeFromClasspath}}
+\index{removeFromClasspath@{removeFromClasspath}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{removeFromClasspath}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.removeFromClasspath (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{IPath}]{path}
+\end{DoxyParamCaption}
+)  throws JavaModelException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab75bf11f00d22be3e81050263a30f7a1}
+
+
+Definition at line 631 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a4175c17b9c618d32ec2971208da64e44}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!removeSourceContainer@{removeSourceContainer}}
+\index{removeSourceContainer@{removeSourceContainer}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{removeSourceContainer}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.removeSourceContainer (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{jproject, }
+\item[{String}]{containerName}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a4175c17b9c618d32ec2971208da64e44}
+Adds a source container to a IJavaProject and imports all files contained in the given ZIP file. 
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The parent project \\
+\hline
+{\em containerName} & Name of the source container \\
+\hline
+{\em zipFile} & Archive to import \\
+\hline
+{\em containerEncoding} & encoding for the generated source container \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The handle to the new source container 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em InvocationTargetException} & Creation failed \\
+\hline
+{\em CoreException} & Creation failed \\
+\hline
+{\em IOException} & Creation failed Adds a source container to a IJavaProject and imports all files contained in the given ZIP file. \\
+\hline
+\end{DoxyExceptions}
+
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The parent project \\
+\hline
+{\em containerName} & Name of the source container \\
+\hline
+{\em zipFile} & Archive to import \\
+\hline
+{\em containerEncoding} & encoding for the generated source container \\
+\hline
+{\em exclusionFilters} & Exclusion filters to set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The handle to the new source container 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em InvocationTargetException} & Creation failed \\
+\hline
+{\em CoreException} & Creation failed \\
+\hline
+{\em IOException} & Creation failed Removes a source folder from a IJavaProject. \\
+\hline
+\end{DoxyExceptions}
+
+\begin{DoxyParams}{Parameters}
+{\em jproject} & The parent project \\
+\hline
+{\em containerName} & Name of the source folder to remove \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & Remove failed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 412 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a97c8f1ec5471ba53d2a6ed372ffda525}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!set13CompilerOptions@{set13CompilerOptions}}
+\index{set13CompilerOptions@{set13CompilerOptions}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{set13CompilerOptions}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.set13CompilerOptions (
+\begin{DoxyParamCaption}
+\item[{Map}]{options}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a97c8f1ec5471ba53d2a6ed372ffda525}
+Sets the compiler options to 1.3 
+\begin{DoxyParams}{Parameters}
+{\em options} & The compiler options to configure \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 226 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a83b10b111cb7702370fb6581219c9417}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!set14CompilerOptions@{set14CompilerOptions}}
+\index{set14CompilerOptions@{set14CompilerOptions}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{set14CompilerOptions}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.set14CompilerOptions (
+\begin{DoxyParamCaption}
+\item[{Map}]{options}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a83b10b111cb7702370fb6581219c9417}
+Sets the compiler options to 1.4 
+\begin{DoxyParams}{Parameters}
+{\em options} & The compiler options to configure \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 214 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a0ac66e905c063a83ad51194c310f1e6a}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!set14CompilerOptions@{set14CompilerOptions}}
+\index{set14CompilerOptions@{set14CompilerOptions}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{set14CompilerOptions}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.set14CompilerOptions (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{project}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a0ac66e905c063a83ad51194c310f1e6a}
+Sets the compiler options to 1.4 for the given project. 
+\begin{DoxyParams}{Parameters}
+{\em project} & the java project \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 192 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8e1c9f655eb4dd2dd754dc04e0b1c5fd}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!set15CompilerOptions@{set15CompilerOptions}}
+\index{set15CompilerOptions@{set15CompilerOptions}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{set15CompilerOptions}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.set15CompilerOptions (
+\begin{DoxyParamCaption}
+\item[{Map}]{options}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8e1c9f655eb4dd2dd754dc04e0b1c5fd}
+Sets the compiler options to 1.5 
+\begin{DoxyParams}{Parameters}
+{\em options} & The compiler options to configure \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 202 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a1aa1a0ef7d7adba1862ba8bc6254baa2}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!set15CompilerOptions@{set15CompilerOptions}}
+\index{set15CompilerOptions@{set15CompilerOptions}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{set15CompilerOptions}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.set15CompilerOptions (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{project}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a1aa1a0ef7d7adba1862ba8bc6254baa2}
+Sets the compiler options to 1.5 for the given project. 
+\begin{DoxyParams}{Parameters}
+{\em project} & the java project \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 182 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_aca056a0f02d0f464b7319c236786a30c}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!setAutoBuilding@{setAutoBuilding}}
+\index{setAutoBuilding@{setAutoBuilding}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{setAutoBuilding}]{\setlength{\rightskip}{0pt plus 5cm}static boolean org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.setAutoBuilding (
+\begin{DoxyParamCaption}
+\item[{boolean}]{state}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_aca056a0f02d0f464b7319c236786a30c}
+Sets auto-\/building state for the test workspace. 
+\begin{DoxyParams}{Parameters}
+{\em state} & The new auto building state \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The previous state 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em CoreException} & Change failed \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 651 of file JavaProjectHelper.java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ae1a510c7b10dbf64cd95cc379d58a350}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!ASSERT\_\-NO\_\-MIXED\_\-LINE\_\-DELIMIERS@{ASSERT\_\-NO\_\-MIXED\_\-LINE\_\-DELIMIERS}}
+\index{ASSERT\_\-NO\_\-MIXED\_\-LINE\_\-DELIMIERS@{ASSERT\_\-NO\_\-MIXED\_\-LINE\_\-DELIMIERS}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{ASSERT\_\-NO\_\-MIXED\_\-LINE\_\-DELIMIERS}]{\setlength{\rightskip}{0pt plus 5cm}final boolean {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.ASSERT\_\-NO\_\-MIXED\_\-LINE\_\-DELIMIERS} = false\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ae1a510c7b10dbf64cd95cc379d58a350}
+If set to {\ttfamily true} all resources that are deleted using \hyperlink{}{delete(IJavaElement)} and that contain mixed line delimiters will result in a test failure. 
+
+Should be {\ttfamily false} during normal and Releng test runs due to performance impact and because the search plug-\/in gets loaded which results in a test failure.  
+
+Definition at line 106 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_af0167a048adf755595853c19ef30b60d}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!COUNT\_\-CLASSES\_\-JUNIT\_\-SRC\_\-381@{COUNT\_\-CLASSES\_\-JUNIT\_\-SRC\_\-381}}
+\index{COUNT\_\-CLASSES\_\-JUNIT\_\-SRC\_\-381@{COUNT\_\-CLASSES\_\-JUNIT\_\-SRC\_\-381}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{COUNT\_\-CLASSES\_\-JUNIT\_\-SRC\_\-381}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.COUNT\_\-CLASSES\_\-JUNIT\_\-SRC\_\-381} = 76\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_af0167a048adf755595853c19ef30b60d}
+
+
+Definition at line 92 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a0f75bcd17ac6c7fa55810a720858020a}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!COUNT\_\-CLASSES\_\-MYLIB@{COUNT\_\-CLASSES\_\-MYLIB}}
+\index{COUNT\_\-CLASSES\_\-MYLIB@{COUNT\_\-CLASSES\_\-MYLIB}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{COUNT\_\-CLASSES\_\-MYLIB}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.COUNT\_\-CLASSES\_\-MYLIB} = 3\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a0f75bcd17ac6c7fa55810a720858020a}
+
+
+Definition at line 94 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_aabe3ec975531ede97506dc8840f50c1e}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!COUNT\_\-CLASSES\_\-RT\_\-STUBS\_\-15@{COUNT\_\-CLASSES\_\-RT\_\-STUBS\_\-15}}
+\index{COUNT\_\-CLASSES\_\-RT\_\-STUBS\_\-15@{COUNT\_\-CLASSES\_\-RT\_\-STUBS\_\-15}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{COUNT\_\-CLASSES\_\-RT\_\-STUBS\_\-15}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.COUNT\_\-CLASSES\_\-RT\_\-STUBS\_\-15} = 661\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_aabe3ec975531ede97506dc8840f50c1e}
+
+
+Definition at line 89 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a23d9cfacb334a7bded4ec4295b154352}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!COUNT\_\-INTERFACES\_\-JUNIT\_\-SRC\_\-381@{COUNT\_\-INTERFACES\_\-JUNIT\_\-SRC\_\-381}}
+\index{COUNT\_\-INTERFACES\_\-JUNIT\_\-SRC\_\-381@{COUNT\_\-INTERFACES\_\-JUNIT\_\-SRC\_\-381}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{COUNT\_\-INTERFACES\_\-JUNIT\_\-SRC\_\-381}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.COUNT\_\-INTERFACES\_\-JUNIT\_\-SRC\_\-381} = 8\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a23d9cfacb334a7bded4ec4295b154352}
+
+
+Definition at line 93 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ada6902cb610a070f60612b3ae068f626}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!COUNT\_\-INTERFACES\_\-RT\_\-STUBS\_\-15@{COUNT\_\-INTERFACES\_\-RT\_\-STUBS\_\-15}}
+\index{COUNT\_\-INTERFACES\_\-RT\_\-STUBS\_\-15@{COUNT\_\-INTERFACES\_\-RT\_\-STUBS\_\-15}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{COUNT\_\-INTERFACES\_\-RT\_\-STUBS\_\-15}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.COUNT\_\-INTERFACES\_\-RT\_\-STUBS\_\-15} = 135\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ada6902cb610a070f60612b3ae068f626}
+
+
+Definition at line 90 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_af51571e2c282dc955d763c8aa6d74d0b}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!JUNIT\_\-SRC@{JUNIT\_\-SRC}}
+\index{JUNIT\_\-SRC@{JUNIT\_\-SRC}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{JUNIT\_\-SRC}]{\setlength{\rightskip}{0pt plus 5cm}final IPath {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.JUNIT\_\-SRC} = new Path(\char`\"{}testresources/junit37-\/noUI-\/src.zip\char`\"{})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_af51571e2c282dc955d763c8aa6d74d0b}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a31fe8a61eb699994d99273c9d3996172}{JUNIT\_\-SRC\_\-381} 
+\end{DoxySeeAlso}
+
+
+Definition at line 78 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a31fe8a61eb699994d99273c9d3996172}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!JUNIT\_\-SRC\_\-381@{JUNIT\_\-SRC\_\-381}}
+\index{JUNIT\_\-SRC\_\-381@{JUNIT\_\-SRC\_\-381}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{JUNIT\_\-SRC\_\-381}]{\setlength{\rightskip}{0pt plus 5cm}final IPath {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.JUNIT\_\-SRC\_\-381} = new Path(\char`\"{}testresources/junit381-\/noUI-\/src.zip\char`\"{})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a31fe8a61eb699994d99273c9d3996172}
+
+
+Definition at line 81 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a4800d44dacf636af372611d1ffb6d8a1}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!JUNIT\_\-SRC\_\-ENCODING@{JUNIT\_\-SRC\_\-ENCODING}}
+\index{JUNIT\_\-SRC\_\-ENCODING@{JUNIT\_\-SRC\_\-ENCODING}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{JUNIT\_\-SRC\_\-ENCODING}]{\setlength{\rightskip}{0pt plus 5cm}final String {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.JUNIT\_\-SRC\_\-ENCODING} = \char`\"{}ISO-\/8859-\/1\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a4800d44dacf636af372611d1ffb6d8a1}
+
+
+Definition at line 82 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8b45a289f9403a104b4262a119f82351}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!MAX\_\-RETRY@{MAX\_\-RETRY}}
+\index{MAX\_\-RETRY@{MAX\_\-RETRY}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{MAX\_\-RETRY}]{\setlength{\rightskip}{0pt plus 5cm}final int {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.MAX\_\-RETRY} = 5\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a8b45a289f9403a104b4262a119f82351}
+
+
+Definition at line 87 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_aaf4b86adc0576d9e3eba268ab1afee22}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!MYLIB@{MYLIB}}
+\index{MYLIB@{MYLIB}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{MYLIB}]{\setlength{\rightskip}{0pt plus 5cm}final IPath {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.MYLIB} = new Path(\char`\"{}testresources/mylib.jar\char`\"{})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_aaf4b86adc0576d9e3eba268ab1afee22}
+
+
+Definition at line 84 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab065fefae002b3356342e1ff056da45c}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!NLS\_\-LIB@{NLS\_\-LIB}}
+\index{NLS\_\-LIB@{NLS\_\-LIB}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{NLS\_\-LIB}]{\setlength{\rightskip}{0pt plus 5cm}final IPath {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.NLS\_\-LIB} = new Path(\char`\"{}testresources/nls.jar\char`\"{})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab065fefae002b3356342e1ff056da45c}
+
+
+Definition at line 85 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a25c1dc7863be515c696975db13e6908e}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!RT\_\-STUBS\_\-13@{RT\_\-STUBS\_\-13}}
+\index{RT\_\-STUBS\_\-13@{RT\_\-STUBS\_\-13}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{RT\_\-STUBS\_\-13}]{\setlength{\rightskip}{0pt plus 5cm}final IPath {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.RT\_\-STUBS\_\-13} = new Path(\char`\"{}testresources/rtstubs.jar\char`\"{})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_a25c1dc7863be515c696975db13e6908e}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab9682099e6b3300bd32cf650a6bb9b8a}{RT\_\-STUBS\_\-15} 
+\end{DoxySeeAlso}
+
+
+Definition at line 73 of file JavaProjectHelper.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab9682099e6b3300bd32cf650a6bb9b8a}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}!RT\_\-STUBS\_\-15@{RT\_\-STUBS\_\-15}}
+\index{RT\_\-STUBS\_\-15@{RT\_\-STUBS\_\-15}!org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper@{org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper}}
+\subsubsection[{RT\_\-STUBS\_\-15}]{\setlength{\rightskip}{0pt plus 5cm}final IPath {\bf org.eclipse.jdt.ui.tests.refactoring.infra.JavaProjectHelper.RT\_\-STUBS\_\-15} = new Path(\char`\"{}testresources/rtstubs15.jar\char`\"{})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper_ab9682099e6b3300bd32cf650a6bb9b8a}
+
+
+Definition at line 80 of file JavaProjectHelper.java.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana.tests/src/org/eclipse/jdt/ui/tests/refactoring/infra/\hyperlink{JavaProjectHelper_8java}{JavaProjectHelper.java}\end{DoxyCompactItemize}

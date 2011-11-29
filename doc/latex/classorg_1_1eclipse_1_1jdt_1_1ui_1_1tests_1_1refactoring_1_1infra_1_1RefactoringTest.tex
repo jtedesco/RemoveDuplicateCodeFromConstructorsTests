@@ -1,0 +1,999 @@
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest}{
+\section{org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest Class Reference}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest}\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+}
+
+
+Inherits junit::framework::TestCase.
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_1_1Requestor}{Requestor}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a60f21ce723ed5daeb121d31c30fa161a}{RefactoringTest} (String name)
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aa1f8477cadd0e12c902db43428d68434}{getFileContents} (String fileName)  throws IOException 
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static InputStream \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a2422208077d0b23be1396d756033b0d6}{getStream} (String content)
+\item 
+static IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ae3cb05763a0363d83579a39902a55abf}{getSourceFolder} (IJavaProject javaProject, String name)  throws JavaModelException
+\item 
+static String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8b48cfbd8502c44a36892c4d288eaf9c}{getContents} (IFile file)  throws IOException, CoreException 
+\item 
+static ICompilationUnit \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a2aadf695e3542df1a6c4c8321bab4a65}{createCU} (IPackageFragment pack, String name, String contents)  throws Exception 
+\item 
+static String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a44674d045b34748096e93d2f30aea2b7}{getContents} (InputStream in)  throws IOException 
+\item 
+static InputStream \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8814073699e290159a5b0b9091eef6ef}{getFileInputStream} (String fileName)  throws IOException 
+\item 
+static String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8868c73767cf4655e0a1e8c20f8b32b3}{removeExtension} (String fileName)
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a1152ec42802bc5f65f6dde85d2a29b47}{performDummySearch} (IJavaElement element)  throws Exception
+\item 
+static IMember\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a01ee1018948999df15b40bc0a3e28ec3}{merge} (IMember\mbox{[}$\,$\mbox{]} a1, IMember\mbox{[}$\,$\mbox{]} a2, IMember\mbox{[}$\,$\mbox{]} a3)
+\item 
+static IMember\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a4189ee86647b385cef23fc23f2a2391d}{merge} (IMember\mbox{[}$\,$\mbox{]} a1, IMember\mbox{[}$\,$\mbox{]} a2)
+\item 
+static IField\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a979e4c8b6f65a2e5f2194bb88607df96}{getFields} (IType type, String\mbox{[}$\,$\mbox{]} names)  throws JavaModelException
+\item 
+static IType\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8ccee10f4da490913a9f66a13630e6c5}{getMemberTypes} (IType type, String\mbox{[}$\,$\mbox{]} names)  throws JavaModelException
+\item 
+static IMethod\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_adf4a0bdd6b14679f89ec87ea92a3653c}{getMethods} (IType type, String\mbox{[}$\,$\mbox{]} names, String\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} signatures)  throws JavaModelException
+\item 
+static IType\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aabcefd1270a30399a2062f5949cb0286}{findTypes} (IType\mbox{[}$\,$\mbox{]} types, String\mbox{[}$\,$\mbox{]} namesOfTypesToPullUp)
+\item 
+static IField\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a3e86b7664f4939315fac7e0941c173d7}{findFields} (IField\mbox{[}$\,$\mbox{]} fields, String\mbox{[}$\,$\mbox{]} namesOfFieldsToPullUp)
+\item 
+static IMethod\mbox{[}$\,$\mbox{]} \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5edcbefda2477a94f9eb2992986f88b9}{findMethods} (IMethod\mbox{[}$\,$\mbox{]} selectedMethods, String\mbox{[}$\,$\mbox{]} namesOfMethods, String\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} signaturesOfMethods)
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aaa49b1f8158b5a973df922bb0c85b1ad}{assertEqualLines} (String expected, String actual)
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a0f60a75ac64facaa30722bebf63fe2a6}{assertEqualLines} (String message, String expected, String actual)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5a5685ebaef1a05eaad29c505dbb2a63}{fIsVerbose} = false
+\item 
+boolean \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aac1c4a306842560f3f461f9a3bb05ba2}{fIsPreDeltaTest} = false
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_acd2df0f1993be4d7c6010f0523df987e}{TEST\_\-PATH\_\-PREFIX} = \char`\"{}\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a66bfdf7082095826be91b1c57297f5ea}{setUp} ()  throws Exception 
+\item 
+void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a49cee59d63df61565a84ebf904b88f37}{performDummySearch} ()  throws Exception 
+\item 
+void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a7ed749a8aeaa13885963d3b6f3e2cdb3}{tearDown} ()  throws Exception 
+\item 
+IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aadc3164623457edcbf5487dfb01d90dd}{getRoot} ()
+\item 
+IPackageFragment \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a111ea9121b3023c91496ac174bb47abb}{getPackageP} ()
+\item 
+final RefactoringStatus \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_af3c98926e4cb24ac14ab2aaf5af6a24e}{performRefactoring} (RefactoringDescriptor descriptor)  throws Exception 
+\item 
+final Refactoring \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5f3200063173e8792276cb004a8122e1}{createRefactoring} (RefactoringDescriptor descriptor)  throws CoreException 
+\item 
+final RefactoringStatus \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8634d45c776ed0361a3f9957eec7ecb4}{performRefactoring} (Refactoring ref)  throws Exception 
+\item 
+final RefactoringStatus \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aa9b9bdac4349cfaee64f002e10397035}{performRefactoring} (Refactoring ref, boolean providesUndo)  throws Exception 
+\item 
+void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a2a8e4b9697941006d7b56c3ff4f37e37}{executePerformOperation} (final PerformChangeOperation perform, IWorkspace workspace)  throws CoreException 
+\item 
+final RefactoringStatus \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aa9b69d9cda60d60684d46f0e45d37be2}{performRefactoringWithStatus} (Refactoring ref)  throws Exception 
+\item 
+final Change \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a04fe3161fb063e19b5732426930c39af}{performChange} (final Refactoring refactoring, boolean storeUndo)  throws Exception 
+\item 
+final Change \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a6ea6bd83bc5719c025fc69d0e6da7a9d}{performChange} (final Change change)  throws Exception 
+\item 
+IUndoManager \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a298d2cc296a175545a70628d9273d42c}{getUndoManager} ()
+\item 
+IType \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8fbcce8926fd1ff7833765a2874b89bc}{getType} (ICompilationUnit cu, String name)  throws JavaModelException 
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_afc6bcb6bc2b0bf7e8905df2ed83769a0}{getRefactoringPath} ()
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a717b542658e4905837949967ec6bf68f}{getTestPath} ()
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ac5cd0510d90a589e8f8ded851ff0d7d0}{createTestFileName} (String cuName, String infix)
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a310a9883ad6c00b8c08c9ff44e45267c}{getInputTestFileName} (String cuName)
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a096f8b85540de7624d7616f95f5e450a}{getInputTestFileName} (String cuName, String subDirName)
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a42b3a2518506c36f6ca6d91483f89551}{getOutputTestFileName} (String cuName)
+\item 
+String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ae0d6c57c7b4957ff6fe46314cb115ed9}{getOutputTestFileName} (String cuName, String subDirName)
+\item 
+ICompilationUnit \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ae3b6264b63a6f978dc0d8df91c8a1484}{createCUfromTestFile} (IPackageFragment pack, String cuName)  throws Exception 
+\item 
+ICompilationUnit \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5fa7cd813059fc72050935a9f8d7314c}{createCUfromTestFile} (IPackageFragment pack, String cuName, String subDirName)  throws Exception 
+\item 
+ICompilationUnit \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a47dee64785e7f6f24b2ccdea50c316c5}{createCUfromTestFile} (IPackageFragment pack, String cuName, boolean input)  throws Exception 
+\item 
+ICompilationUnit \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_abef265f18fc02925eda1185599c50d83}{createCUfromTestFile} (IPackageFragment pack, String cuName, String subDirName, boolean input)  throws Exception 
+\item 
+void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5710b7645df54496f1102285a0860945}{printTestDisabledMessage} (String explanation)
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aa70d88ca205d6286c87e79d4bd70eaab}{TEST\_\-INPUT\_\-INFIX} = \char`\"{}/in/\char`\"{}
+\item 
+static final String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ab3b6c06d50f980b167b4d117915bd1b8}{TEST\_\-OUTPUT\_\-INFIX} = \char`\"{}/out/\char`\"{}
+\item 
+static final String \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8c6f7d52cde9bd241664675f5c0bb7fb}{CONTAINER} = \char`\"{}src\char`\"{}
+\item 
+static final List \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a13b97bc899dec84a2a928a647ccad94e}{PROJECT\_\-RESOURCE\_\-CHILDREN}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a14544b7bf04ace5d479f65665a486150}{restoreTestProject} ()  throws Exception 
+\item 
+void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a0979f4cec633cf7de253c116e2f6ed67}{refreshFromLocal} ()  throws CoreException 
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a3af3a96c58786acf3ed02de6f7cb25ca}{tryDeletingAllNonJavaChildResources} (IPackageFragment pack)  throws JavaModelException 
+\item 
+static void \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a50d30af18e36d7598c081f86884a1518}{tryDeletingAllJavaChildren} (IPackageFragment pack)  throws JavaModelException 
+\item 
+static boolean \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_af7bd3033956453f05a3a56383c2bb964}{areSameSignatures} (String\mbox{[}$\,$\mbox{]} s1, String\mbox{[}$\,$\mbox{]} s2)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+IPackageFragmentRoot \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aea3c45c88142e0a7f29b1c229cb38640}{fRoot}
+\item 
+IPackageFragment \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a166a31ebb383a0c7e2efd64fdc0d7bf1}{fPackageP}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 71 of file RefactoringTest.java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a60f21ce723ed5daeb121d31c30fa161a}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!RefactoringTest@{RefactoringTest}}
+\index{RefactoringTest@{RefactoringTest}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{RefactoringTest}]{\setlength{\rightskip}{0pt plus 5cm}org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.RefactoringTest (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a60f21ce723ed5daeb121d31c30fa161a}
+
+
+Definition at line 88 of file RefactoringTest.java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_af7bd3033956453f05a3a56383c2bb964}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!areSameSignatures@{areSameSignatures}}
+\index{areSameSignatures@{areSameSignatures}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{areSameSignatures}]{\setlength{\rightskip}{0pt plus 5cm}static boolean org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.areSameSignatures (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{s1, }
+\item[{String\mbox{[}$\,$\mbox{]}}]{s2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_af7bd3033956453f05a3a56383c2bb964}
+
+
+Definition at line 569 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aaa49b1f8158b5a973df922bb0c85b1ad}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!assertEqualLines@{assertEqualLines}}
+\index{assertEqualLines@{assertEqualLines}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{assertEqualLines}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.assertEqualLines (
+\begin{DoxyParamCaption}
+\item[{String}]{expected, }
+\item[{String}]{actual}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aaa49b1f8158b5a973df922bb0c85b1ad}
+Line-\/based version of junit.framework.Assert.assertEquals(String, String) without considering line delimiters. 
+\begin{DoxyParams}{Parameters}
+{\em expected} & the expected value \\
+\hline
+{\em actual} & the actual value \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 585 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a0f60a75ac64facaa30722bebf63fe2a6}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!assertEqualLines@{assertEqualLines}}
+\index{assertEqualLines@{assertEqualLines}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{assertEqualLines}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.assertEqualLines (
+\begin{DoxyParamCaption}
+\item[{String}]{message, }
+\item[{String}]{expected, }
+\item[{String}]{actual}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a0f60a75ac64facaa30722bebf63fe2a6}
+Line-\/based version of junit.framework.Assert.assertEquals(String, String, String) without considering line delimiters. 
+\begin{DoxyParams}{Parameters}
+{\em message} & the message \\
+\hline
+{\em expected} & the expected value \\
+\hline
+{\em actual} & the actual value \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 596 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a2aadf695e3542df1a6c4c8321bab4a65}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!createCU@{createCU}}
+\index{createCU@{createCU}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{createCU}]{\setlength{\rightskip}{0pt plus 5cm}static ICompilationUnit org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.createCU (
+\begin{DoxyParamCaption}
+\item[{IPackageFragment}]{pack, }
+\item[{String}]{name, }
+\item[{String}]{contents}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a2aadf695e3542df1a6c4c8321bab4a65}
+
+
+Definition at line 429 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ae3b6264b63a6f978dc0d8df91c8a1484}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!createCUfromTestFile@{createCUfromTestFile}}
+\index{createCUfromTestFile@{createCUfromTestFile}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{createCUfromTestFile}]{\setlength{\rightskip}{0pt plus 5cm}ICompilationUnit org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.createCUfromTestFile (
+\begin{DoxyParamCaption}
+\item[{IPackageFragment}]{pack, }
+\item[{String}]{cuName}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ae3b6264b63a6f978dc0d8df91c8a1484}
+
+
+Definition at line 380 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5fa7cd813059fc72050935a9f8d7314c}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!createCUfromTestFile@{createCUfromTestFile}}
+\index{createCUfromTestFile@{createCUfromTestFile}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{createCUfromTestFile}]{\setlength{\rightskip}{0pt plus 5cm}ICompilationUnit org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.createCUfromTestFile (
+\begin{DoxyParamCaption}
+\item[{IPackageFragment}]{pack, }
+\item[{String}]{cuName, }
+\item[{String}]{subDirName}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5fa7cd813059fc72050935a9f8d7314c}
+
+
+Definition at line 384 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a47dee64785e7f6f24b2ccdea50c316c5}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!createCUfromTestFile@{createCUfromTestFile}}
+\index{createCUfromTestFile@{createCUfromTestFile}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{createCUfromTestFile}]{\setlength{\rightskip}{0pt plus 5cm}ICompilationUnit org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.createCUfromTestFile (
+\begin{DoxyParamCaption}
+\item[{IPackageFragment}]{pack, }
+\item[{String}]{cuName, }
+\item[{boolean}]{input}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a47dee64785e7f6f24b2ccdea50c316c5}
+
+
+Definition at line 388 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_abef265f18fc02925eda1185599c50d83}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!createCUfromTestFile@{createCUfromTestFile}}
+\index{createCUfromTestFile@{createCUfromTestFile}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{createCUfromTestFile}]{\setlength{\rightskip}{0pt plus 5cm}ICompilationUnit org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.createCUfromTestFile (
+\begin{DoxyParamCaption}
+\item[{IPackageFragment}]{pack, }
+\item[{String}]{cuName, }
+\item[{String}]{subDirName, }
+\item[{boolean}]{input}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_abef265f18fc02925eda1185599c50d83}
+
+
+Definition at line 395 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5f3200063173e8792276cb004a8122e1}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!createRefactoring@{createRefactoring}}
+\index{createRefactoring@{createRefactoring}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{createRefactoring}]{\setlength{\rightskip}{0pt plus 5cm}final Refactoring org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.createRefactoring (
+\begin{DoxyParamCaption}
+\item[{RefactoringDescriptor}]{descriptor}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5f3200063173e8792276cb004a8122e1}
+
+
+Definition at line 231 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ac5cd0510d90a589e8f8ded851ff0d7d0}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!createTestFileName@{createTestFileName}}
+\index{createTestFileName@{createTestFileName}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{createTestFileName}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.createTestFileName (
+\begin{DoxyParamCaption}
+\item[{String}]{cuName, }
+\item[{String}]{infix}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ac5cd0510d90a589e8f8ded851ff0d7d0}
+
+
+Definition at line 354 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a2a8e4b9697941006d7b56c3ff4f37e37}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!executePerformOperation@{executePerformOperation}}
+\index{executePerformOperation@{executePerformOperation}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{executePerformOperation}]{\setlength{\rightskip}{0pt plus 5cm}void org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.executePerformOperation (
+\begin{DoxyParamCaption}
+\item[{final PerformChangeOperation}]{perform, }
+\item[{IWorkspace}]{workspace}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a2a8e4b9697941006d7b56c3ff4f37e37}
+
+
+Definition at line 286 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a3e86b7664f4939315fac7e0941c173d7}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!findFields@{findFields}}
+\index{findFields@{findFields}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{findFields}]{\setlength{\rightskip}{0pt plus 5cm}static IField \mbox{[}$\,$\mbox{]} org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.findFields (
+\begin{DoxyParamCaption}
+\item[{IField\mbox{[}$\,$\mbox{]}}]{fields, }
+\item[{String\mbox{[}$\,$\mbox{]}}]{namesOfFieldsToPullUp}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a3e86b7664f4939315fac7e0941c173d7}
+
+
+Definition at line 538 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5edcbefda2477a94f9eb2992986f88b9}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!findMethods@{findMethods}}
+\index{findMethods@{findMethods}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{findMethods}]{\setlength{\rightskip}{0pt plus 5cm}static IMethod \mbox{[}$\,$\mbox{]} org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.findMethods (
+\begin{DoxyParamCaption}
+\item[{IMethod\mbox{[}$\,$\mbox{]}}]{selectedMethods, }
+\item[{String\mbox{[}$\,$\mbox{]}}]{namesOfMethods, }
+\item[{String}]{signaturesOfMethods\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5edcbefda2477a94f9eb2992986f88b9}
+
+
+Definition at line 551 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aabcefd1270a30399a2062f5949cb0286}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!findTypes@{findTypes}}
+\index{findTypes@{findTypes}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{findTypes}]{\setlength{\rightskip}{0pt plus 5cm}static IType \mbox{[}$\,$\mbox{]} org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.findTypes (
+\begin{DoxyParamCaption}
+\item[{IType\mbox{[}$\,$\mbox{]}}]{types, }
+\item[{String\mbox{[}$\,$\mbox{]}}]{namesOfTypesToPullUp}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aabcefd1270a30399a2062f5949cb0286}
+
+
+Definition at line 525 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8b48cfbd8502c44a36892c4d288eaf9c}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getContents@{getContents}}
+\index{getContents@{getContents}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getContents}]{\setlength{\rightskip}{0pt plus 5cm}static String org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getContents (
+\begin{DoxyParamCaption}
+\item[{IFile}]{file}
+\end{DoxyParamCaption}
+)  throws IOException, CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8b48cfbd8502c44a36892c4d288eaf9c}
+
+
+Definition at line 425 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a44674d045b34748096e93d2f30aea2b7}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getContents@{getContents}}
+\index{getContents@{getContents}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getContents}]{\setlength{\rightskip}{0pt plus 5cm}static String org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getContents (
+\begin{DoxyParamCaption}
+\item[{InputStream}]{in}
+\end{DoxyParamCaption}
+)  throws IOException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a44674d045b34748096e93d2f30aea2b7}
+
+
+Definition at line 437 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a979e4c8b6f65a2e5f2194bb88607df96}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getFields@{getFields}}
+\index{getFields@{getFields}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getFields}]{\setlength{\rightskip}{0pt plus 5cm}static IField \mbox{[}$\,$\mbox{]} org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getFields (
+\begin{DoxyParamCaption}
+\item[{IType}]{type, }
+\item[{String\mbox{[}$\,$\mbox{]}}]{names}
+\end{DoxyParamCaption}
+)  throws JavaModelException\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a979e4c8b6f65a2e5f2194bb88607df96}
+
+
+Definition at line 480 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aa1f8477cadd0e12c902db43428d68434}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getFileContents@{getFileContents}}
+\index{getFileContents@{getFileContents}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getFileContents}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getFileContents (
+\begin{DoxyParamCaption}
+\item[{String}]{fileName}
+\end{DoxyParamCaption}
+)  throws IOException }}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aa1f8477cadd0e12c902db43428d68434}
+
+
+Definition at line 421 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8814073699e290159a5b0b9091eef6ef}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getFileInputStream@{getFileInputStream}}
+\index{getFileInputStream@{getFileInputStream}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getFileInputStream}]{\setlength{\rightskip}{0pt plus 5cm}static InputStream org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getFileInputStream (
+\begin{DoxyParamCaption}
+\item[{String}]{fileName}
+\end{DoxyParamCaption}
+)  throws IOException \hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8814073699e290159a5b0b9091eef6ef}
+
+
+Definition at line 451 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a310a9883ad6c00b8c08c9ff44e45267c}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getInputTestFileName@{getInputTestFileName}}
+\index{getInputTestFileName@{getInputTestFileName}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getInputTestFileName}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getInputTestFileName (
+\begin{DoxyParamCaption}
+\item[{String}]{cuName}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a310a9883ad6c00b8c08c9ff44e45267c}
+
+
+Definition at line 358 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a096f8b85540de7624d7616f95f5e450a}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getInputTestFileName@{getInputTestFileName}}
+\index{getInputTestFileName@{getInputTestFileName}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getInputTestFileName}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getInputTestFileName (
+\begin{DoxyParamCaption}
+\item[{String}]{cuName, }
+\item[{String}]{subDirName}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a096f8b85540de7624d7616f95f5e450a}
+
+
+Definition at line 365 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8ccee10f4da490913a9f66a13630e6c5}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getMemberTypes@{getMemberTypes}}
+\index{getMemberTypes@{getMemberTypes}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getMemberTypes}]{\setlength{\rightskip}{0pt plus 5cm}static IType \mbox{[}$\,$\mbox{]} org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getMemberTypes (
+\begin{DoxyParamCaption}
+\item[{IType}]{type, }
+\item[{String\mbox{[}$\,$\mbox{]}}]{names}
+\end{DoxyParamCaption}
+)  throws JavaModelException\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8ccee10f4da490913a9f66a13630e6c5}
+
+
+Definition at line 492 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_adf4a0bdd6b14679f89ec87ea92a3653c}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getMethods@{getMethods}}
+\index{getMethods@{getMethods}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getMethods}]{\setlength{\rightskip}{0pt plus 5cm}static IMethod \mbox{[}$\,$\mbox{]} org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getMethods (
+\begin{DoxyParamCaption}
+\item[{IType}]{type, }
+\item[{String\mbox{[}$\,$\mbox{]}}]{names, }
+\item[{String}]{signatures\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)  throws JavaModelException\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_adf4a0bdd6b14679f89ec87ea92a3653c}
+
+
+Definition at line 512 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a42b3a2518506c36f6ca6d91483f89551}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getOutputTestFileName@{getOutputTestFileName}}
+\index{getOutputTestFileName@{getOutputTestFileName}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getOutputTestFileName}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getOutputTestFileName (
+\begin{DoxyParamCaption}
+\item[{String}]{cuName}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a42b3a2518506c36f6ca6d91483f89551}
+
+
+Definition at line 369 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ae0d6c57c7b4957ff6fe46314cb115ed9}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getOutputTestFileName@{getOutputTestFileName}}
+\index{getOutputTestFileName@{getOutputTestFileName}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getOutputTestFileName}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getOutputTestFileName (
+\begin{DoxyParamCaption}
+\item[{String}]{cuName, }
+\item[{String}]{subDirName}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ae0d6c57c7b4957ff6fe46314cb115ed9}
+
+
+Definition at line 376 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a111ea9121b3023c91496ac174bb47abb}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getPackageP@{getPackageP}}
+\index{getPackageP@{getPackageP}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getPackageP}]{\setlength{\rightskip}{0pt plus 5cm}IPackageFragment org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getPackageP (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a111ea9121b3023c91496ac174bb47abb}
+
+
+Definition at line 222 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_afc6bcb6bc2b0bf7e8905df2ed83769a0}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getRefactoringPath@{getRefactoringPath}}
+\index{getRefactoringPath@{getRefactoringPath}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getRefactoringPath}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getRefactoringPath (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_afc6bcb6bc2b0bf7e8905df2ed83769a0}
+
+
+Definition at line 343 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aadc3164623457edcbf5487dfb01d90dd}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getRoot@{getRoot}}
+\index{getRoot@{getRoot}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getRoot}]{\setlength{\rightskip}{0pt plus 5cm}IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getRoot (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aadc3164623457edcbf5487dfb01d90dd}
+
+
+Definition at line 218 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ae3cb05763a0363d83579a39902a55abf}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getSourceFolder@{getSourceFolder}}
+\index{getSourceFolder@{getSourceFolder}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getSourceFolder}]{\setlength{\rightskip}{0pt plus 5cm}static IPackageFragmentRoot org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getSourceFolder (
+\begin{DoxyParamCaption}
+\item[{IJavaProject}]{javaProject, }
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)  throws JavaModelException\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ae3cb05763a0363d83579a39902a55abf}
+
+
+Definition at line 412 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a2422208077d0b23be1396d756033b0d6}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getStream@{getStream}}
+\index{getStream@{getStream}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getStream}]{\setlength{\rightskip}{0pt plus 5cm}static InputStream org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getStream (
+\begin{DoxyParamCaption}
+\item[{String}]{content}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a2422208077d0b23be1396d756033b0d6}
+
+
+Definition at line 408 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a717b542658e4905837949967ec6bf68f}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getTestPath@{getTestPath}}
+\index{getTestPath@{getTestPath}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getTestPath}]{\setlength{\rightskip}{0pt plus 5cm}String org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getTestPath (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a717b542658e4905837949967ec6bf68f}
+
+
+Definition at line 350 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8fbcce8926fd1ff7833765a2874b89bc}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getType@{getType}}
+\index{getType@{getType}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getType}]{\setlength{\rightskip}{0pt plus 5cm}IType org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getType (
+\begin{DoxyParamCaption}
+\item[{ICompilationUnit}]{cu, }
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)  throws JavaModelException \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8fbcce8926fd1ff7833765a2874b89bc}
+
+
+Definition at line 331 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a298d2cc296a175545a70628d9273d42c}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!getUndoManager@{getUndoManager}}
+\index{getUndoManager@{getUndoManager}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{getUndoManager}]{\setlength{\rightskip}{0pt plus 5cm}IUndoManager org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.getUndoManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a298d2cc296a175545a70628d9273d42c}
+
+
+Definition at line 323 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a01ee1018948999df15b40bc0a3e28ec3}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!merge@{merge}}
+\index{merge@{merge}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{merge}]{\setlength{\rightskip}{0pt plus 5cm}static IMember \mbox{[}$\,$\mbox{]} org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.merge (
+\begin{DoxyParamCaption}
+\item[{IMember\mbox{[}$\,$\mbox{]}}]{a1, }
+\item[{IMember\mbox{[}$\,$\mbox{]}}]{a2, }
+\item[{IMember\mbox{[}$\,$\mbox{]}}]{a3}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a01ee1018948999df15b40bc0a3e28ec3}
+
+
+Definition at line 472 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a4189ee86647b385cef23fc23f2a2391d}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!merge@{merge}}
+\index{merge@{merge}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{merge}]{\setlength{\rightskip}{0pt plus 5cm}static IMember \mbox{[}$\,$\mbox{]} org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.merge (
+\begin{DoxyParamCaption}
+\item[{IMember\mbox{[}$\,$\mbox{]}}]{a1, }
+\item[{IMember\mbox{[}$\,$\mbox{]}}]{a2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a4189ee86647b385cef23fc23f2a2391d}
+
+
+Definition at line 476 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a04fe3161fb063e19b5732426930c39af}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!performChange@{performChange}}
+\index{performChange@{performChange}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{performChange}]{\setlength{\rightskip}{0pt plus 5cm}final Change org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.performChange (
+\begin{DoxyParamCaption}
+\item[{final Refactoring}]{refactoring, }
+\item[{boolean}]{storeUndo}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a04fe3161fb063e19b5732426930c39af}
+
+
+Definition at line 305 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a6ea6bd83bc5719c025fc69d0e6da7a9d}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!performChange@{performChange}}
+\index{performChange@{performChange}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{performChange}]{\setlength{\rightskip}{0pt plus 5cm}final Change org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.performChange (
+\begin{DoxyParamCaption}
+\item[{final Change}]{change}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a6ea6bd83bc5719c025fc69d0e6da7a9d}
+
+
+Definition at line 316 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a49cee59d63df61565a84ebf904b88f37}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!performDummySearch@{performDummySearch}}
+\index{performDummySearch@{performDummySearch}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{performDummySearch}]{\setlength{\rightskip}{0pt plus 5cm}void org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.performDummySearch (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a49cee59d63df61565a84ebf904b88f37}
+
+
+Definition at line 104 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a1152ec42802bc5f65f6dde85d2a29b47}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!performDummySearch@{performDummySearch}}
+\index{performDummySearch@{performDummySearch}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{performDummySearch}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.performDummySearch (
+\begin{DoxyParamCaption}
+\item[{IJavaElement}]{element}
+\end{DoxyParamCaption}
+)  throws Exception\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a1152ec42802bc5f65f6dde85d2a29b47}
+
+
+Definition at line 459 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8634d45c776ed0361a3f9957eec7ecb4}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!performRefactoring@{performRefactoring}}
+\index{performRefactoring@{performRefactoring}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{performRefactoring}]{\setlength{\rightskip}{0pt plus 5cm}final RefactoringStatus org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.performRefactoring (
+\begin{DoxyParamCaption}
+\item[{Refactoring}]{ref}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8634d45c776ed0361a3f9957eec7ecb4}
+
+
+Definition at line 239 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_af3c98926e4cb24ac14ab2aaf5af6a24e}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!performRefactoring@{performRefactoring}}
+\index{performRefactoring@{performRefactoring}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{performRefactoring}]{\setlength{\rightskip}{0pt plus 5cm}final RefactoringStatus org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.performRefactoring (
+\begin{DoxyParamCaption}
+\item[{RefactoringDescriptor}]{descriptor}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_af3c98926e4cb24ac14ab2aaf5af6a24e}
+
+
+Definition at line 226 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aa9b9bdac4349cfaee64f002e10397035}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!performRefactoring@{performRefactoring}}
+\index{performRefactoring@{performRefactoring}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{performRefactoring}]{\setlength{\rightskip}{0pt plus 5cm}final RefactoringStatus org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.performRefactoring (
+\begin{DoxyParamCaption}
+\item[{Refactoring}]{ref, }
+\item[{boolean}]{providesUndo}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aa9b9bdac4349cfaee64f002e10397035}
+
+
+Definition at line 243 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aa9b69d9cda60d60684d46f0e45d37be2}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!performRefactoringWithStatus@{performRefactoringWithStatus}}
+\index{performRefactoringWithStatus@{performRefactoringWithStatus}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{performRefactoringWithStatus}]{\setlength{\rightskip}{0pt plus 5cm}final RefactoringStatus org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.performRefactoringWithStatus (
+\begin{DoxyParamCaption}
+\item[{Refactoring}]{ref}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aa9b69d9cda60d60684d46f0e45d37be2}
+
+
+Definition at line 290 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5710b7645df54496f1102285a0860945}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!printTestDisabledMessage@{printTestDisabledMessage}}
+\index{printTestDisabledMessage@{printTestDisabledMessage}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{printTestDisabledMessage}]{\setlength{\rightskip}{0pt plus 5cm}void org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.printTestDisabledMessage (
+\begin{DoxyParamCaption}
+\item[{String}]{explanation}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5710b7645df54496f1102285a0860945}
+
+
+Definition at line 403 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a0979f4cec633cf7de253c116e2f6ed67}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!refreshFromLocal@{refreshFromLocal}}
+\index{refreshFromLocal@{refreshFromLocal}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{refreshFromLocal}]{\setlength{\rightskip}{0pt plus 5cm}void org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.refreshFromLocal (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws CoreException \hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a0979f4cec633cf7de253c116e2f6ed67}
+
+
+Definition at line 181 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8868c73767cf4655e0a1e8c20f8b32b3}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!removeExtension@{removeExtension}}
+\index{removeExtension@{removeExtension}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{removeExtension}]{\setlength{\rightskip}{0pt plus 5cm}static String org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.removeExtension (
+\begin{DoxyParamCaption}
+\item[{String}]{fileName}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8868c73767cf4655e0a1e8c20f8b32b3}
+
+
+Definition at line 455 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a14544b7bf04ace5d479f65665a486150}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!restoreTestProject@{restoreTestProject}}
+\index{restoreTestProject@{restoreTestProject}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{restoreTestProject}]{\setlength{\rightskip}{0pt plus 5cm}void org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.restoreTestProject (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a14544b7bf04ace5d479f65665a486150}
+
+
+Definition at line 142 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a66bfdf7082095826be91b1c57297f5ea}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!setUp@{setUp}}
+\index{setUp@{setUp}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{setUp}]{\setlength{\rightskip}{0pt plus 5cm}void org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.setUp (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a66bfdf7082095826be91b1c57297f5ea}
+
+
+Definition at line 92 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a7ed749a8aeaa13885963d3b6f3e2cdb3}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!tearDown@{tearDown}}
+\index{tearDown@{tearDown}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{tearDown}]{\setlength{\rightskip}{0pt plus 5cm}void org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.tearDown (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a7ed749a8aeaa13885963d3b6f3e2cdb3}
+Removes contents of \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a111ea9121b3023c91496ac174bb47abb}{getPackageP()}, of \hyperlink{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aadc3164623457edcbf5487dfb01d90dd}{getRoot()} (except for p) and of the Java project (except for src and the JRE library). 
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 113 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a50d30af18e36d7598c081f86884a1518}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!tryDeletingAllJavaChildren@{tryDeletingAllJavaChildren}}
+\index{tryDeletingAllJavaChildren@{tryDeletingAllJavaChildren}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{tryDeletingAllJavaChildren}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.tryDeletingAllJavaChildren (
+\begin{DoxyParamCaption}
+\item[{IPackageFragment}]{pack}
+\end{DoxyParamCaption}
+)  throws JavaModelException \hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a50d30af18e36d7598c081f86884a1518}
+
+
+Definition at line 203 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a3af3a96c58786acf3ed02de6f7cb25ca}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!tryDeletingAllNonJavaChildResources@{tryDeletingAllNonJavaChildResources}}
+\index{tryDeletingAllNonJavaChildResources@{tryDeletingAllNonJavaChildResources}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{tryDeletingAllNonJavaChildResources}]{\setlength{\rightskip}{0pt plus 5cm}static void org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.tryDeletingAllNonJavaChildResources (
+\begin{DoxyParamCaption}
+\item[{IPackageFragment}]{pack}
+\end{DoxyParamCaption}
+)  throws JavaModelException \hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a3af3a96c58786acf3ed02de6f7cb25ca}
+
+
+Definition at line 188 of file RefactoringTest.java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8c6f7d52cde9bd241664675f5c0bb7fb}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!CONTAINER@{CONTAINER}}
+\index{CONTAINER@{CONTAINER}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{CONTAINER}]{\setlength{\rightskip}{0pt plus 5cm}final String {\bf org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.CONTAINER} = \char`\"{}src\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a8c6f7d52cde9bd241664675f5c0bb7fb}
+
+
+Definition at line 83 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aac1c4a306842560f3f461f9a3bb05ba2}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!fIsPreDeltaTest@{fIsPreDeltaTest}}
+\index{fIsPreDeltaTest@{fIsPreDeltaTest}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{fIsPreDeltaTest}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.fIsPreDeltaTest} = false}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aac1c4a306842560f3f461f9a3bb05ba2}
+
+
+Definition at line 77 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5a5685ebaef1a05eaad29c505dbb2a63}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!fIsVerbose@{fIsVerbose}}
+\index{fIsVerbose@{fIsVerbose}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{fIsVerbose}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.fIsVerbose} = false}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a5a5685ebaef1a05eaad29c505dbb2a63}
+
+
+Definition at line 76 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a166a31ebb383a0c7e2efd64fdc0d7bf1}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!fPackageP@{fPackageP}}
+\index{fPackageP@{fPackageP}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{fPackageP}]{\setlength{\rightskip}{0pt plus 5cm}IPackageFragment {\bf org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.fPackageP}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a166a31ebb383a0c7e2efd64fdc0d7bf1}
+
+
+Definition at line 74 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aea3c45c88142e0a7f29b1c229cb38640}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!fRoot@{fRoot}}
+\index{fRoot@{fRoot}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{fRoot}]{\setlength{\rightskip}{0pt plus 5cm}IPackageFragmentRoot {\bf org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.fRoot}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aea3c45c88142e0a7f29b1c229cb38640}
+
+
+Definition at line 73 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a13b97bc899dec84a2a928a647ccad94e}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!PROJECT\_\-RESOURCE\_\-CHILDREN@{PROJECT\_\-RESOURCE\_\-CHILDREN}}
+\index{PROJECT\_\-RESOURCE\_\-CHILDREN@{PROJECT\_\-RESOURCE\_\-CHILDREN}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{PROJECT\_\-RESOURCE\_\-CHILDREN}]{\setlength{\rightskip}{0pt plus 5cm}final List {\bf org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.PROJECT\_\-RESOURCE\_\-CHILDREN}\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_a13b97bc899dec84a2a928a647ccad94e}
+{\bfseries Initial value:}
+\begin{DoxyCode}
+ Arrays.asList(new String[] {
+               ".project", ".classpath", ".settings" })
+\end{DoxyCode}
+
+
+Definition at line 85 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aa70d88ca205d6286c87e79d4bd70eaab}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!TEST\_\-INPUT\_\-INFIX@{TEST\_\-INPUT\_\-INFIX}}
+\index{TEST\_\-INPUT\_\-INFIX@{TEST\_\-INPUT\_\-INFIX}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{TEST\_\-INPUT\_\-INFIX}]{\setlength{\rightskip}{0pt plus 5cm}final String {\bf org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.TEST\_\-INPUT\_\-INFIX} = \char`\"{}/in/\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_aa70d88ca205d6286c87e79d4bd70eaab}
+
+
+Definition at line 81 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ab3b6c06d50f980b167b4d117915bd1b8}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!TEST\_\-OUTPUT\_\-INFIX@{TEST\_\-OUTPUT\_\-INFIX}}
+\index{TEST\_\-OUTPUT\_\-INFIX@{TEST\_\-OUTPUT\_\-INFIX}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{TEST\_\-OUTPUT\_\-INFIX}]{\setlength{\rightskip}{0pt plus 5cm}final String {\bf org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.TEST\_\-OUTPUT\_\-INFIX} = \char`\"{}/out/\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}static, protected\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_ab3b6c06d50f980b167b4d117915bd1b8}
+
+
+Definition at line 82 of file RefactoringTest.java.
+
+\hypertarget{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_acd2df0f1993be4d7c6010f0523df987e}{
+\index{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}!TEST\_\-PATH\_\-PREFIX@{TEST\_\-PATH\_\-PREFIX}}
+\index{TEST\_\-PATH\_\-PREFIX@{TEST\_\-PATH\_\-PREFIX}!org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest@{org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest}}
+\subsubsection[{TEST\_\-PATH\_\-PREFIX}]{\setlength{\rightskip}{0pt plus 5cm}final String {\bf org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTest.TEST\_\-PATH\_\-PREFIX} = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest_acd2df0f1993be4d7c6010f0523df987e}
+
+
+Definition at line 79 of file RefactoringTest.java.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana.tests/src/org/eclipse/jdt/ui/tests/refactoring/infra/\hyperlink{RefactoringTest_8java}{RefactoringTest.java}\end{DoxyCompactItemize}
