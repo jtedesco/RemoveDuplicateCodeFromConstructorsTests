@@ -1,20 +1,20 @@
 public class TestPrimitiveTypesThreeConstructorsWithDefaultExplicitValues {
-	
+
 	int x;
 	double y;
-	
+
 	public TestPrimitiveTypesThreeConstructorsWithDefaultExplicitValues() {
-		x = 5;
-		y = 7.0;
+		this.x = 5;
+		this.y = 7.0;
 	}
-	
+
 	public TestPrimitiveTypesThreeConstructorsWithDefaultExplicitValues(int x) {
 		this.x = x;
-		y = 5.0;
+		this.y = 5.0;
 	}
-	
+
 	public TestPrimitiveTypesThreeConstructorsWithDefaultExplicitValues(double y) {
 		this.y = y;
-		x = 2;
+		this.x = 2;
 	}
 }

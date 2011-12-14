@@ -13,6 +13,6 @@ public class TestNoDuplicateCodeRandomValues {
 		int a;
 		a = 4;
 		y = 9;
-		boo = true;
+		boo = booboo;
 	}
 }

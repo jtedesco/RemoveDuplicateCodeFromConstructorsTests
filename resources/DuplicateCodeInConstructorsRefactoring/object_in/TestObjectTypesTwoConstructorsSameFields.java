@@ -1,15 +1,15 @@
 public class TestObjectTypesTwoConstructorsSameFields {
-	
+
 	Object x;
 	String y;
-	
+
 	public TestObjectTypesTwoConstructorsSameFields(Object x) {
 		this.x = x;
-		y = "blah";
+		this.y = "blah";
 	}
-	
+
 	public TestObjectTypesTwoConstructorsSameFields(String y) {
 		this.y = y;
-		x = new Object();
+		this.x = new Object();
 	}
 }

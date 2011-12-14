@@ -4,6 +4,25 @@
 <param name="FrameName" value="right">
 </OBJECT>
 <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1TestHelperNameFormatEmpty.html#a776ca8b18b67f2e2732994d416ca263b"><param name="Name" value="a"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1TestHelperNameFormatEmpty.html#a776ca8b18b67f2e2732994d416ca263b"><param name="Name" value="edu::illinois::canistelCassabanana::TestHelperNameFormatEmpty"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperExistingName.html#af2a19c12a6bec80282f9e9c89161fc99"><param name="Name" value="TestHelperExistingName"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatAt.html#a9a75cca610b041e842b0dd7f2fa72ef8"><param name="Name" value="TestHelperNameFormatAt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatClassName.html#a197aaa372c893035b17008c8e27e0be1"><param name="Name" value="TestHelperNameFormatClassName"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatDefault.html#aedabccccf7f2469419658e6d5662d3e5"><param name="Name" value="TestHelperNameFormatDefault"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatExclamation.html#aedf4c694f19cefe0670d286f01a36521"><param name="Name" value="TestHelperNameFormatExclamation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatInt.html#a0795793dcd58faa67b98c38d4e1a79e9"><param name="Name" value="TestHelperNameFormatInt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatNumber.html#a6ea8cd41962012ed7462aafea57faa4c"><param name="Name" value="TestHelperNameFormatNumber"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatPound.html#a0b49cdbe08ffdcd1e94ee29ae73373b9"><param name="Name" value="TestHelperNameFormatPound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSemicolon.html#abf16cd8725029a6f748c4d4954ab3f43"><param name="Name" value="TestHelperNameFormatSemicolon"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSlash.html#a79b52e64b18861e8ff80b8b3eeb7efda"><param name="Name" value="TestHelperNameFormatSlash"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpace.html#afedd2b23a6beff0544ff4530b3360914"><param name="Name" value="TestHelperNameFormatSpace"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpaced.html#acd845f0074817b0946164272b6f571fc"><param name="Name" value="TestHelperNameFormatSpaced"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpaceStart.html#a21a9144646f275a987fae869639059a1"><param name="Name" value="TestHelperNameFormatSpaceStart"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperProtectedName.html#acd641ac9604bec1efa3060208c0ee69b"><param name="Name" value="TestHelperProtectedName"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperTwoFields.html#ab8ee64c73b645ddfacdf953b01b9f381"><param name="Name" value="TestHelperTwoFields"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractCUTestCase.html#aa8d8ed3e9ce021b079b4ffa9a3c573c0"><param name="Name" value="AbstractCUTestCase"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractRefactoringTestSetup.html#a7f057eb1025e327fd19741eb5f4f3a53"><param name="Name" value="AbstractRefactoringTestSetup"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase.html#a603bdc23109cc1adba274af4a2b339d5"><param name="Name" value="AbstractSelectionTestCase"></OBJECT>
@@ -54,6 +73,24 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1StringAsserts.html#acbdcf72bc2650de67e1dae5ad3245b8b"><param name="Name" value="assertExpectedExistInProposals"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1MixedLineDelimiterDetector.html#ac45a53cb1e86a3786308742265715c03"><param name="Name" value="assertNoMixedLineDelimiters"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider.html#af86bdd78ff0d38e681f50a2649e79f69"><param name="Name" value="assertTrue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1TestHelperNameFormatEmpty.html#ad634c809be1be0c3cffa3ebcaafc560f"><param name="Name" value="b"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1TestHelperNameFormatEmpty.html#ad634c809be1be0c3cffa3ebcaafc560f"><param name="Name" value="edu::illinois::canistelCassabanana::TestHelperNameFormatEmpty"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperExistingName.html#ae39efe8f74d0087e7abbc5eaa3972d59"><param name="Name" value="TestHelperExistingName"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatAt.html#aa8e6c36e2dee46ce81df7f1cadd1269b"><param name="Name" value="TestHelperNameFormatAt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatClassName.html#a870f370036951615d57dc9db6434d962"><param name="Name" value="TestHelperNameFormatClassName"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatDefault.html#a9b1bd2042aaa65e9aebed89f6c66a12f"><param name="Name" value="TestHelperNameFormatDefault"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatExclamation.html#aceb1deeacab331bbf29d20d4b8f42426"><param name="Name" value="TestHelperNameFormatExclamation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatInt.html#a99bb4a44fd7e1291cb30304712b05a6d"><param name="Name" value="TestHelperNameFormatInt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatNumber.html#aa9b2f39b32f9407104feb0a80f05d2df"><param name="Name" value="TestHelperNameFormatNumber"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatPound.html#ac0e07580002fdacbdb886a38e9feb1d4"><param name="Name" value="TestHelperNameFormatPound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSemicolon.html#aa21633601dbbe696e044b6f9cf824c71"><param name="Name" value="TestHelperNameFormatSemicolon"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSlash.html#a46a02c4c4dcaada38dc9db9c67170289"><param name="Name" value="TestHelperNameFormatSlash"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpace.html#a501b7d3625ce149c5fdbc065750c950b"><param name="Name" value="TestHelperNameFormatSpace"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpaced.html#a6882d0ef382b08debbaaa1d3f8539869"><param name="Name" value="TestHelperNameFormatSpaced"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpaceStart.html#a90f043a285cd60ed6917bbd6762a5d89"><param name="Name" value="TestHelperNameFormatSpaceStart"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperTwoFields.html#aaafa43d08ae2b172ab8e9e88fe3bb85c"><param name="Name" value="TestHelperTwoFields"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#a9a9da9b2399817edb3d2304d88ffef10"><param name="Name" value="blank_lines_after_imports"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#a2ac20bed1cc249baf874970c99973a78"><param name="Name" value="blank_lines_after_package"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#a4a82eb14f6cb58266ccf069a7821da8f"><param name="Name" value="blank_lines_at_beginning_of_method_body"></OBJECT>
@@ -79,7 +116,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#aa9c77c7ed487680f59f3efcf8eee4a83"><param name="Name" value="brace_position_for_method_declaration"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#aaf21d5c02a9271d1755f7410b81b7181"><param name="Name" value="brace_position_for_switch"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#a060a4005529fd60ebe673b62078c4b01"><param name="Name" value="brace_position_for_type_declaration"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5080560577f9b540a89f7fdcedb23819"><param name="Name" value="buildRefactoring"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a329bccc91cbea182e965a3e31f41c006"><param name="Name" value="buildRefactoring"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TextRangeUtil.html#a53ad2a89fb408fba1c6cf2a8d406f300"><param name="Name" value="calculateTabCountInLine"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase.html#a38eaa47f10cbc3eede9e17ca00e8646b"><param name="Name" value="checkPreconditions"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper.html#a5a34fceaddd0e5312f04f4bfe6f1ed3c"><param name="Name" value="clear"></OBJECT>
@@ -112,6 +149,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#ae3b6264b63a6f978dc0d8df91c8a1484"><param name="Name" value="createCUfromTestFile"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper.html#a8b7b9e680b2757f0cf2dbed6972422e8"><param name="Name" value="createJavaProject"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper.html#a3b76ed2e1cd6b7e11fec59ba4e60b04b"><param name="Name" value="createJavaProjectWithJUnitSource"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObjectFunction.html#a7708c60efd4ad52c852f19b038e1dc0a"><param name="Name" value="createNewObject"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#a5f3200063173e8792276cb004a8122e1"><param name="Name" value="createRefactoring"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#ac5cd0510d90a589e8f8ded851ff0d7d0"><param name="Name" value="createTestFileName"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper.html#a5e54a9c4511173e7739ce8e809c325c9"><param name="Name" value="delete"></OBJECT>
@@ -123,6 +161,12 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceedu.html"><param name="Name" value="edu"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceedu_1_1illinois.html"><param name="Name" value="edu::illinois"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceedu_1_1illinois_1_1canistelCassabanana.html"><param name="Name" value="edu::illinois::canistelCassabanana"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1TestHelperNameFormatEmpty.html"><param name="Name" value="edu::illinois::canistelCassabanana::TestHelperNameFormatEmpty"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1TestHelperNameFormatEmpty.html#a776ca8b18b67f2e2732994d416ca263b"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1TestHelperNameFormatEmpty.html#ad634c809be1be0c3cffa3ebcaafc560f"><param name="Name" value="b"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1TestHelperNameFormatEmpty.html#aa3de23cd985a5d0662e4567acb78df69"><param name="Name" value="TestHelperNameFormatEmpty"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceedu_1_1illinois_1_1canistelCassabanana_1_1tests.html"><param name="Name" value="edu::illinois::canistelCassabanana::tests"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1Activator.html"><param name="Name" value="edu::illinois::canistelCassabanana::tests::Activator"></OBJECT>
   <UL>
@@ -144,30 +188,56 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html"><param name="Name" value="edu::illinois::canistelCassabanana::tests::RemoveDuplicateCodeInConstructorsRefactoringTests"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aeb1da62dad72af83ae5fee23034c9c40"><param name="Name" value="adaptName"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5080560577f9b540a89f7fdcedb23819"><param name="Name" value="buildRefactoring"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a329bccc91cbea182e965a3e31f41c006"><param name="Name" value="buildRefactoring"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a71a84052abdcc1a08c65b55f0a830b7b"><param name="Name" value="ERROR_REFACTORING_MESSAGE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#af2137a25d70680689bc1cc93d92106db"><param name="Name" value="EXPECTED_ASSIGNMENT_DEPENDENCY_MESSAGE"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a734c5cd6b9cd1e88c2ab61ae597d66a8"><param name="Name" value="EXPECTED_CHECKING_PRECONDITIONS_MESSAGE"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a926cb04d4eaedbbf59ba8d0220147ec5"><param name="Name" value="EXPECTED_COMPILE_ERRORS_MESSAGE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#abf64483c95692832bdde45b66128aff9"><param name="Name" value="EXPECTED_HELPER_FUNCTION_BAD_NAME_MESSAGE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a6f8cf4d45d976c0d1e82e0a89ca2ab99"><param name="Name" value="EXPECTED_HELPER_FUNCTION_EXISTING_NAME_MESSAGE"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ab3af05be15455583ceda71e6a6587049"><param name="Name" value="EXPECTED_NO_CONSTRUCTORS_MESSAGE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aac8a1c650f75e8dbac2dcd28cfe09d20"><param name="Name" value="EXPECTED_NO_DUPLICATE_CODE_MESSAGE"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a1a017b7b7c8607561e8f93423b10b0e0"><param name="Name" value="EXPECTED_NULL_CONSTRUCTORS_MESSAGE"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a6d44de9379cb26439ffd7e2ff29e5874"><param name="Name" value="EXPECTED_ONE_CONSTRUCTOR_MESSAGE"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a093baeba2e5e938d962b85eb72b91f41"><param name="Name" value="EXPECTED_REFACTORING_DESCRIPTION"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#afaed708bee891f511d416153a09b2822"><param name="Name" value="EXPECTED_REFACTORING_ID"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a6731732fcf429dca7528f1b1e9327d96"><param name="Name" value="EXPECTED_REFACTORING_NAME"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a6662ff002bec870d7dca4f167c1250f0"><param name="Name" value="EXPECTED_UNABLE_TO_REFACTOR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aefdabf6f4f74c8e0866595aee2f9aa4f"><param name="Name" value="EXPECTED_UNEXPECTED_ERROR_MESSAGE"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ae1e7b0a9eb31811720730a644c2e116a"><param name="Name" value="getResourceLocation"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ad7c4d4d5ffaf23549e247919159f8676"><param name="Name" value="initializePreferences"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a122b249a3eaf49b3f2ce23b7bb93ed39"><param name="Name" value="invalidTest"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#afbc679d5c59bbc0ffc5582ce412a2492"><param name="Name" value="NO_DUPLICATE_CODE_MESSAGE"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#afea3b2a67c66712589f7e8155f4620f8"><param name="Name" value="performInvalidTest"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ab8c23fd01b2771a4ddc419afee4d95f4"><param name="Name" value="performTest"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5b311a450f46a21f483cea1103006571"><param name="Name" value="invalidTest"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#adf0ced75cfcc1fad8b5205b04710fe82"><param name="Name" value="performInvalidTest"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a2d4de647c15cb83590c36d37a1bc2897"><param name="Name" value="performTest"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ade9db394415373c643268437e7c8abb0"><param name="Name" value="RemoveDuplicateCodeInConstructorsRefactoringTests"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#afb718ed747bbde75a5d5c4e955915def"><param name="Name" value="setUp"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ab5b5ba61d920f31a03d1717be728be07"><param name="Name" value="setUpTest"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aa4dbfb99e813da80d6a7315bb6229ec1"><param name="Name" value="suite"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#abb9c5f98dee1dbd810f5b6bdc26bd39f"><param name="Name" value="testAccessPrivate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5bf899c6633639b9f92a889e7ed64ab2"><param name="Name" value="testAccessProtected"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ae4a827bef441db2b76f74c7b2f971c0a"><param name="Name" value="testComputationalConstructor1"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5b67abcdbc9cc241b2c23944b16eafd5"><param name="Name" value="testComputationalConstructor2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a15a8e048be125c3bc2b6b3c075ac8503"><param name="Name" value="testEmptyClass"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a6a874baa9f9b327abe88b9a599f1a46d"><param name="Name" value="testEmptyFile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a14bf2aac6b96539d29e6c5c582265ebe"><param name="Name" value="testFieldAssignmentDependencyObject"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5993441971ce208a3e0a99853169da24"><param name="Name" value="testFieldAssignmentDependencyObjectFunction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aa6e02bbd144ccd71c95223ac9ab237b7"><param name="Name" value="testFieldAssignmentDependencyPrimitive"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a025734c047b6b92e487f92c4977c81b6"><param name="Name" value="testFieldAssignmentDependencyPrimitive2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ad3b950b7b16af3f6d42d760606a36041"><param name="Name" value="testFieldsAndMethods"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a7cd315b251e2bb907f9b603c35178cd1"><param name="Name" value="testHelperExistingName"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a3991e884cd369ec29b6de430efc0eabe"><param name="Name" value="testHelperNameFormatAt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ac8664dd434e6bbe2fdbfb74e75d9857b"><param name="Name" value="testHelperNameFormatClassName"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a9decff2853f3b47461c29026a3b3f87d"><param name="Name" value="testHelperNameFormatDefault"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a3a00394b8cf18be26c02300e2f766d10"><param name="Name" value="testHelperNameFormatEmpty"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a0acf0dabdaf864b9f9faec0e8995bbb8"><param name="Name" value="testHelperNameFormatExclamation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a88e5176a08cbc4753b183ae00a5114ac"><param name="Name" value="testHelperNameFormatInt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aecbc89b5257d174bdc5bb213ade69926"><param name="Name" value="testHelperNameFormatNumber"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a942b77b44b79b85c4eb860eed48d9136"><param name="Name" value="testHelperNameFormatPound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a208ee442b4a08ab1450e8a808742c1a9"><param name="Name" value="testHelperNameFormatSemicolon"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aa04dfc19bebd404da45251c3c8b1f0de"><param name="Name" value="testHelperNameFormatSlash"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a89efd5d87b6b21592042b014c5ddf22f"><param name="Name" value="testHelperNameFormatSpace"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ad5c867985f9767fcdb07efe7d3caad1d"><param name="Name" value="testHelperNameFormatSpaced"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ad4974ee7f3f0c5ecb12191aec0c2a8da"><param name="Name" value="testHelperNameFormatSpaceStart"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aa470125df472e4cb1d1a93f6768640bc"><param name="Name" value="testHelperTwoFields"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a1b59306010bf23a70f306598952f49d5"><param name="Name" value="testInvalidNaming"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#afd3a3614e763667c4cb37a707997dac6"><param name="Name" value="testMethodWithClassSubstring"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a9e42bf5e1bae5f24afe8fe8b12c5b0e5"><param name="Name" value="testMissingBracket"></OBJECT>
@@ -175,6 +245,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ab7ed0630acbbb01b36e84e060a282193"><param name="Name" value="testNoDuplicateCodeRandomValues"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ab173b5c78a3860d95f4ab97fdc0fef49"><param name="Name" value="testNoDuplicateCodeWithDefaultConstructor"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a65fcb17a4c0e1fb24ce9bd210883a678"><param name="Name" value="testNoDuplicateCodeWithIndependentConstructors"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a2f9c0ea69a29c696779870f304728135"><param name="Name" value="testNotReorderingParametersInExistingConstructor"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a7e7f8fa5d4dfa38b8326fe8bb4392d30"><param name="Name" value="testObjectTypesDefaultConstructor"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5c865ff48e95c5ff0e3571307c4d8e0c"><param name="Name" value="testObjectTypesDefaultConstructorExplicitValue"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a7b0e4fde9afd24ca690fc56c68299d74"><param name="Name" value="testObjectTypesTwoConstructorsDifferentFields"></OBJECT>
@@ -200,8 +271,9 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5c291d0b712ef123de50c1132fa693f0"><param name="Name" value="testPrimitiveTypesTwoConstructorsDifferentFieldArguments2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ae79f13f3640f121395007addcb3173f9"><param name="Name" value="testPrimitiveTypesTwoConstructorsSameFields"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a59cc4d65c71cfb08779284c46cb56d3e"><param name="Name" value="testSetup"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a41a2b2c573bfe5d793565302ca9637ab"><param name="Name" value="UNABLE_TO_REFACTOR"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#abecc90ccb6a55d4e52dbf177d29a02ac"><param name="Name" value="validTest"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aa3dc60ec674bd2b220d9849f34baf483"><param name="Name" value="testUnusedObjectTypes"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a927d833f2556deba5e64362b41c11651"><param name="Name" value="testUnusedPrimitiveTypes"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a2309845d5cf9b0ef028704323d056ae5"><param name="Name" value="validTest"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTestSetup.html"><param name="Name" value="edu::illinois::canistelCassabanana::tests::RemoveDuplicateCodeInConstructorsRefactoringTestSetup"></OBJECT>
   <UL>
@@ -221,15 +293,21 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTestSetup.html#a40853b5ccdcb98e6ea413acea726102f"><param name="Name" value="setUp"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1Activator.html#aaf4525a2279ecffb3fa3cbee6e702333"><param name="Name" value="enableAutobuild"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a71a84052abdcc1a08c65b55f0a830b7b"><param name="Name" value="ERROR_REFACTORING_MESSAGE"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#a2a8e4b9697941006d7b56c3ff4f37e37"><param name="Name" value="executePerformOperation"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#af2137a25d70680689bc1cc93d92106db"><param name="Name" value="EXPECTED_ASSIGNMENT_DEPENDENCY_MESSAGE"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a734c5cd6b9cd1e88c2ab61ae597d66a8"><param name="Name" value="EXPECTED_CHECKING_PRECONDITIONS_MESSAGE"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a926cb04d4eaedbbf59ba8d0220147ec5"><param name="Name" value="EXPECTED_COMPILE_ERRORS_MESSAGE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#abf64483c95692832bdde45b66128aff9"><param name="Name" value="EXPECTED_HELPER_FUNCTION_BAD_NAME_MESSAGE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a6f8cf4d45d976c0d1e82e0a89ca2ab99"><param name="Name" value="EXPECTED_HELPER_FUNCTION_EXISTING_NAME_MESSAGE"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ab3af05be15455583ceda71e6a6587049"><param name="Name" value="EXPECTED_NO_CONSTRUCTORS_MESSAGE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aac8a1c650f75e8dbac2dcd28cfe09d20"><param name="Name" value="EXPECTED_NO_DUPLICATE_CODE_MESSAGE"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a1a017b7b7c8607561e8f93423b10b0e0"><param name="Name" value="EXPECTED_NULL_CONSTRUCTORS_MESSAGE"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a6d44de9379cb26439ffd7e2ff29e5874"><param name="Name" value="EXPECTED_ONE_CONSTRUCTOR_MESSAGE"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a093baeba2e5e938d962b85eb72b91f41"><param name="Name" value="EXPECTED_REFACTORING_DESCRIPTION"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#afaed708bee891f511d416153a09b2822"><param name="Name" value="EXPECTED_REFACTORING_ID"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a6731732fcf429dca7528f1b1e9327d96"><param name="Name" value="EXPECTED_REFACTORING_NAME"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a6662ff002bec870d7dca4f167c1250f0"><param name="Name" value="EXPECTED_UNABLE_TO_REFACTOR"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aefdabf6f4f74c8e0866595aee2f9aa4f"><param name="Name" value="EXPECTED_UNEXPECTED_ERROR_MESSAGE"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTestSetup.html#a6c6ee1308a16ef2cbdd1a66605a4fbfa"><param name="Name" value="fBaseTypes"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTestSetup.html#a220aede9c7539af9e2ebef07cbf6ab53"><param name="Name" value="fExistingMethod"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTestSetup.html#ae1e850e75f49931a9f649b1c0e852d9f"><param name="Name" value="fgJavaTestProject"></OBJECT>
@@ -357,6 +435,11 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#a298d2cc296a175545a70628d9273d42c"><param name="Name" value="getUndoManager"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1Activator.html#ae7ce6c70f7c3b86eb58f701682b1e544"><param name="Name" value="getWorkspace"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestOneConstructorWithMethods.html#ae801aae4c116d9a370f3f5deaf64ab39"><param name="Name" value="haaagsgasdasf"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperExistingName.html#a89ad227b2d7c44addb77b64507ea9796"><param name="Name" value="helper"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperExistingName.html#a89ad227b2d7c44addb77b64507ea9796"><param name="Name" value="TestHelperExistingName"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperTwoFields.html#a5acd7137504cda190b81a00db4e09bd3"><param name="Name" value="TestHelperTwoFields"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper.html#a3fa084c31202066bae7e3139d5a47f41"><param name="Name" value="importResources"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#a5ae1777a005f7cc3446d981189708c21"><param name="Name" value="indent_body_declarations_compare_to_type_header"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#a5bb6164a3bf18f898bcbb47a36f10ca0"><param name="Name" value="indent_breaks_compare_to_cases"></OBJECT>
@@ -486,7 +569,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#a9c682511c0dc83ae37d5dc676dc30d6d"><param name="Name" value="insert_space_between_empty_parens_in_method_declaration"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#a72c675f1929cc601383d3bce37311678"><param name="Name" value="insert_space_between_empty_parens_in_method_invocation"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase.html#a87e51300c32b4669f9f9dfa1311794ee"><param name="Name" value="INVALID_SELECTION"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a122b249a3eaf49b3f2ce23b7bb93ed39"><param name="Name" value="invalidTest"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5b311a450f46a21f483cea1103006571"><param name="Name" value="invalidTest"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider.html#afeec450fba96b7a08c116bdb00def0f2"><param name="Name" value="IS_COPY_TEST"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider.html#af6489f606abe93b8ab14716e64fcfa7d"><param name="Name" value="isIgnorable"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider.html#a9522bbcc5d0fb447e6bd719e9e94a0b1"><param name="Name" value="isSameResourceInCopy"></OBJECT>
@@ -509,8 +592,12 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#a02a406fe48e65b47f825b7b4f3153b75"><param name="Name" value="never_indent_block_comments_on_first_column"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#ac880ac3eff097813209472b3bd21d7f3"><param name="Name" value="never_indent_line_comments_on_first_column"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper.html#ab065fefae002b3356342e1ff056da45c"><param name="Name" value="NLS_LIB"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#afbc679d5c59bbc0ffc5582ce412a2492"><param name="Name" value="NO_DUPLICATE_CODE_MESSAGE"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#a33ee8b6ec61829b8d9fb02aeb15c1d48"><param name="Name" value="number_of_empty_lines_to_preserve"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObject.html#a2ec78a953efa29ae13df7f2d80e75aa8"><param name="Name" value="o"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObject.html#a2ec78a953efa29ae13df7f2d80e75aa8"><param name="Name" value="TestFieldAssignmentDependencyObject"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObjectFunction.html#aa612fe01139c6402df97003e61d35655"><param name="Name" value="TestFieldAssignmentDependencyObjectFunction"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceorg.html"><param name="Name" value="org"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceorg_1_1eclipse.html"><param name="Name" value="org::eclipse"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceorg_1_1eclipse_1_1jdt.html"><param name="Name" value="org::eclipse::jdt"></OBJECT>
@@ -942,12 +1029,12 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper.html#a0e82eb3a6de8503e44d0a1775fb9623d"><param name="Name" value="org::eclipse::jdt::ui::tests::refactoring::infra::JavaProjectHelper"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#a1152ec42802bc5f65f6dde85d2a29b47"><param name="Name" value="org::eclipse::jdt::ui::tests::refactoring::infra::RefactoringTest"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#afea3b2a67c66712589f7e8155f4620f8"><param name="Name" value="performInvalidTest"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#adf0ced75cfcc1fad8b5205b04710fe82"><param name="Name" value="performInvalidTest"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#af3c98926e4cb24ac14ab2aaf5af6a24e"><param name="Name" value="performRefactoring"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#aa9b69d9cda60d60684d46f0e45d37be2"><param name="Name" value="performRefactoringWithStatus"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ab8c23fd01b2771a4ddc419afee4d95f4"><param name="Name" value="performTest"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a2d4de647c15cb83590c36d37a1bc2897"><param name="Name" value="performTest"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ab8c23fd01b2771a4ddc419afee4d95f4"><param name="Name" value="edu::illinois::canistelCassabanana::tests::RemoveDuplicateCodeInConstructorsRefactoringTests"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a2d4de647c15cb83590c36d37a1bc2897"><param name="Name" value="edu::illinois::canistelCassabanana::tests::RemoveDuplicateCodeInConstructorsRefactoringTests"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase.html#acc8202e16b4e0ae0c820babdf3130d05"><param name="Name" value="org::eclipse::jdt::ui::tests::refactoring::infra::AbstractSelectionTestCase"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1Activator.html#a1684bd1b424b25af79fc79ca06bc81b8"><param name="Name" value="plugin"></OBJECT>
@@ -979,7 +1066,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNoDuplicateCodeWithIndependentConstructors.html#a8ef7e3cb54347f1d3d4742360c32050d"><param name="Name" value="s"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNoDuplicateCodeWithIndependentConstructors.html#a8ef7e3cb54347f1d3d4742360c32050d"><param name="Name" value="TestNoDuplicateCodeWithIndependentConstructors"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectTypesWithParametersTwoConstructors.html#abe96b03841f438000a162b68ee07af9f"><param name="Name" value="TestObjectTypesWithParametersTwoConstructors"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectTypesWithParametersTwoConstructors.html#a939b5db97988d501db704b560bf43d64"><param name="Name" value="TestObjectTypesWithParametersTwoConstructors"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1MixedLineDelimiterDetector.html#a4278c73510c5cb331d2d4a44bd52fcad"><param name="Name" value="search"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1JavaProjectHelper.html#a97c8f1ec5471ba53d2a6ed372ffda525"><param name="Name" value="set13CompilerOptions"></OBJECT>
@@ -1019,21 +1106,37 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#aa70d88ca205d6286c87e79d4bd70eaab"><param name="Name" value="TEST_INPUT_INFIX"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#ab3b6c06d50f980b167b4d117915bd1b8"><param name="Name" value="TEST_OUTPUT_INFIX"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#acd2df0f1993be4d7c6010f0523df987e"><param name="Name" value="TEST_PATH_PREFIX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessPrivate.html"><param name="Name" value="TestAccessPrivate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#abb9c5f98dee1dbd810f5b6bdc26bd39f"><param name="Name" value="testAccessPrivate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessPrivate.html"><param name="Name" value="TestAccessPrivate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessPrivate.html#a0c81aa8ad9c22c130cdd7deb629df438"><param name="Name" value="TestAccessPrivate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessPrivate.html#a07b6c33e3e1c0602e43a16b91711d869"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessPrivate.html#aa9cf75558ddecbf9ce9e88d570ddd8c4"><param name="Name" value="y"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessProtected.html"><param name="Name" value="TestAccessProtected"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5bf899c6633639b9f92a889e7ed64ab2"><param name="Name" value="testAccessProtected"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessProtected.html"><param name="Name" value="TestAccessProtected"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessProtected.html#a7cf050044d6377a08f00dd1e3438333d"><param name="Name" value="TestAccessProtected"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessProtected.html#a2b29b691818976d895bc01713b855212"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessProtected.html#a5ce8555d969491d984d384a658bc268d"><param name="Name" value="y"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html"><param name="Name" value="TestComputationalConstructor1"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ae4a827bef441db2b76f74c7b2f971c0a"><param name="Name" value="testComputationalConstructor1"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html"><param name="Name" value="TestComputationalConstructor1"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html#a39f9fcc5b63c29ac52edc07d32736017"><param name="Name" value="TestComputationalConstructor1"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html#a698634df0e42454ff7920579b8711a31"><param name="Name" value="x"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html#a3ee7eb42c5bcb713e70e98c2fff0c44d"><param name="Name" value="y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html#a659df0fbcd14eb65b8707c23586c874d"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html#ab06cc3f1fef70c8301fda6153851327a"><param name="Name" value="y"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor2.html"><param name="Name" value="TestComputationalConstructor2"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5b67abcdbc9cc241b2c23944b16eafd5"><param name="Name" value="testComputationalConstructor2"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor2.html"><param name="Name" value="TestComputationalConstructor2"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor2.html#a69a94b3631c5b4d1507ce84e84da31c2"><param name="Name" value="TestComputationalConstructor2"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor2.html#a8c838ffcc9a1ea5dc12cb3cceaf735c8"><param name="Name" value="x"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor2.html#a469df9698753af791f46ca0384d2a3dd"><param name="Name" value="y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor2.html#a76de27ec33f7f7dfb3443f716aa257eb"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor2.html#ab069c2b16a01402cc3f85b30df185028"><param name="Name" value="y"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestConditionalConstructor.html"><param name="Name" value="TestConditionalConstructor"></OBJECT>
   <UL>
@@ -1044,6 +1147,39 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestEmptyClass.html"><param name="Name" value="TestEmptyClass"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a15a8e048be125c3bc2b6b3c075ac8503"><param name="Name" value="testEmptyClass"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a6a874baa9f9b327abe88b9a599f1a46d"><param name="Name" value="testEmptyFile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObject.html"><param name="Name" value="TestFieldAssignmentDependencyObject"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a14bf2aac6b96539d29e6c5c582265ebe"><param name="Name" value="testFieldAssignmentDependencyObject"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObject.html"><param name="Name" value="TestFieldAssignmentDependencyObject"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObject.html#a2ec78a953efa29ae13df7f2d80e75aa8"><param name="Name" value="o"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObject.html#a8b19bf479f06c287afd7d1ffdbfbc189"><param name="Name" value="TestFieldAssignmentDependencyObject"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObjectFunction.html"><param name="Name" value="TestFieldAssignmentDependencyObjectFunction"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObjectFunction.html#a7708c60efd4ad52c852f19b038e1dc0a"><param name="Name" value="createNewObject"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5993441971ce208a3e0a99853169da24"><param name="Name" value="testFieldAssignmentDependencyObjectFunction"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObjectFunction.html"><param name="Name" value="TestFieldAssignmentDependencyObjectFunction"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObjectFunction.html#aa612fe01139c6402df97003e61d35655"><param name="Name" value="o"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObjectFunction.html#a55149eaece126c72b3e89720ebd9f2c9"><param name="Name" value="TestFieldAssignmentDependencyObjectFunction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObjectFunction.html#af79c0a2741049db88419425cc27e5fb5"><param name="Name" value="x"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyPrimitive.html"><param name="Name" value="TestFieldAssignmentDependencyPrimitive"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyPrimitive2.html"><param name="Name" value="TestFieldAssignmentDependencyPrimitive2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a025734c047b6b92e487f92c4977c81b6"><param name="Name" value="testFieldAssignmentDependencyPrimitive2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyPrimitive2.html"><param name="Name" value="TestFieldAssignmentDependencyPrimitive2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyPrimitive2.html#abae3b09d85657989de0527d961e1da26"><param name="Name" value="TestFieldAssignmentDependencyPrimitive2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyPrimitive2.html#ad0e08b3a510d1e3a2041008e61f3265b"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyPrimitive2.html#a74bcb880aeb12990367c188e9291fc21"><param name="Name" value="y"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aa6e02bbd144ccd71c95223ac9ab237b7"><param name="Name" value="testFieldAssignmentDependencyPrimitive"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyPrimitive.html"><param name="Name" value="TestFieldAssignmentDependencyPrimitive"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyPrimitive.html#ab89fe34f31aa17ad76a5ec457f003fd6"><param name="Name" value="TestFieldAssignmentDependencyPrimitive"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyPrimitive.html#aa896fa50d990b8b5cdc8490c137b1cef"><param name="Name" value="x"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldsAndMethods.html"><param name="Name" value="TestFieldsAndMethods"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ad3b950b7b16af3f6d42d760606a36041"><param name="Name" value="testFieldsAndMethods"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldsAndMethods.html"><param name="Name" value="TestFieldsAndMethods"></OBJECT>
@@ -1056,6 +1192,119 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldsAndMethods.html#ab70e2271f70c0c613b1ceab5a1066594"><param name="Name" value="z"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#afbfb97e87360fcc9fc80968455120b76"><param name="Name" value="TestFormatterOptions"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperExistingName.html"><param name="Name" value="TestHelperExistingName"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperExistingName.html#af2a19c12a6bec80282f9e9c89161fc99"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperExistingName.html#ae39efe8f74d0087e7abbc5eaa3972d59"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a7cd315b251e2bb907f9b603c35178cd1"><param name="Name" value="testHelperExistingName"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperExistingName.html"><param name="Name" value="TestHelperExistingName"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperExistingName.html#a89ad227b2d7c44addb77b64507ea9796"><param name="Name" value="helper"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperExistingName.html#a6c96268c99de3d134bf75485bb1bba4e"><param name="Name" value="TestHelperExistingName"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatAt.html"><param name="Name" value="TestHelperNameFormatAt"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatAt.html#a9a75cca610b041e842b0dd7f2fa72ef8"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatAt.html#aa8e6c36e2dee46ce81df7f1cadd1269b"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a3991e884cd369ec29b6de430efc0eabe"><param name="Name" value="testHelperNameFormatAt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatAt.html"><param name="Name" value="TestHelperNameFormatAt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatClassName.html"><param name="Name" value="TestHelperNameFormatClassName"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatClassName.html#a197aaa372c893035b17008c8e27e0be1"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatClassName.html#a870f370036951615d57dc9db6434d962"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ac8664dd434e6bbe2fdbfb74e75d9857b"><param name="Name" value="testHelperNameFormatClassName"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatClassName.html"><param name="Name" value="TestHelperNameFormatClassName"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatDefault.html"><param name="Name" value="TestHelperNameFormatDefault"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatDefault.html#aedabccccf7f2469419658e6d5662d3e5"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatDefault.html#a9b1bd2042aaa65e9aebed89f6c66a12f"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a9decff2853f3b47461c29026a3b3f87d"><param name="Name" value="testHelperNameFormatDefault"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatDefault.html"><param name="Name" value="TestHelperNameFormatDefault"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1TestHelperNameFormatEmpty.html#aa3de23cd985a5d0662e4567acb78df69"><param name="Name" value="TestHelperNameFormatEmpty"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a3a00394b8cf18be26c02300e2f766d10"><param name="Name" value="testHelperNameFormatEmpty"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatExclamation.html"><param name="Name" value="TestHelperNameFormatExclamation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatExclamation.html#aedf4c694f19cefe0670d286f01a36521"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatExclamation.html#aceb1deeacab331bbf29d20d4b8f42426"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a0acf0dabdaf864b9f9faec0e8995bbb8"><param name="Name" value="testHelperNameFormatExclamation"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatExclamation.html"><param name="Name" value="TestHelperNameFormatExclamation"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatInt.html"><param name="Name" value="TestHelperNameFormatInt"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatInt.html#a0795793dcd58faa67b98c38d4e1a79e9"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatInt.html#a99bb4a44fd7e1291cb30304712b05a6d"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a88e5176a08cbc4753b183ae00a5114ac"><param name="Name" value="testHelperNameFormatInt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatInt.html"><param name="Name" value="TestHelperNameFormatInt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatNumber.html"><param name="Name" value="TestHelperNameFormatNumber"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatNumber.html#a6ea8cd41962012ed7462aafea57faa4c"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatNumber.html#aa9b2f39b32f9407104feb0a80f05d2df"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aecbc89b5257d174bdc5bb213ade69926"><param name="Name" value="testHelperNameFormatNumber"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatNumber.html"><param name="Name" value="TestHelperNameFormatNumber"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatPound.html"><param name="Name" value="TestHelperNameFormatPound"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatPound.html#a0b49cdbe08ffdcd1e94ee29ae73373b9"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatPound.html#ac0e07580002fdacbdb886a38e9feb1d4"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a942b77b44b79b85c4eb860eed48d9136"><param name="Name" value="testHelperNameFormatPound"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatPound.html"><param name="Name" value="TestHelperNameFormatPound"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSemicolon.html"><param name="Name" value="TestHelperNameFormatSemicolon"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSemicolon.html#abf16cd8725029a6f748c4d4954ab3f43"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSemicolon.html#aa21633601dbbe696e044b6f9cf824c71"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a208ee442b4a08ab1450e8a808742c1a9"><param name="Name" value="testHelperNameFormatSemicolon"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSemicolon.html"><param name="Name" value="TestHelperNameFormatSemicolon"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSlash.html"><param name="Name" value="TestHelperNameFormatSlash"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSlash.html#a79b52e64b18861e8ff80b8b3eeb7efda"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSlash.html#a46a02c4c4dcaada38dc9db9c67170289"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aa04dfc19bebd404da45251c3c8b1f0de"><param name="Name" value="testHelperNameFormatSlash"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSlash.html"><param name="Name" value="TestHelperNameFormatSlash"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpace.html"><param name="Name" value="TestHelperNameFormatSpace"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpace.html#afedd2b23a6beff0544ff4530b3360914"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpace.html#a501b7d3625ce149c5fdbc065750c950b"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a89efd5d87b6b21592042b014c5ddf22f"><param name="Name" value="testHelperNameFormatSpace"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpace.html"><param name="Name" value="TestHelperNameFormatSpace"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpaced.html"><param name="Name" value="TestHelperNameFormatSpaced"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpaced.html#acd845f0074817b0946164272b6f571fc"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpaced.html#a6882d0ef382b08debbaaa1d3f8539869"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ad5c867985f9767fcdb07efe7d3caad1d"><param name="Name" value="testHelperNameFormatSpaced"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpaced.html"><param name="Name" value="TestHelperNameFormatSpaced"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpaceStart.html"><param name="Name" value="TestHelperNameFormatSpaceStart"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpaceStart.html#a21a9144646f275a987fae869639059a1"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpaceStart.html#a90f043a285cd60ed6917bbd6762a5d89"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#ad4974ee7f3f0c5ecb12191aec0c2a8da"><param name="Name" value="testHelperNameFormatSpaceStart"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperNameFormatSpaceStart.html"><param name="Name" value="TestHelperNameFormatSpaceStart"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperProtectedName.html"><param name="Name" value="TestHelperProtectedName"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperProtectedName.html#acd641ac9604bec1efa3060208c0ee69b"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperProtectedName.html#a2d779766513fb1121e23e0ed3961c74d"><param name="Name" value="TestHelperProtectedName"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperTwoFields.html"><param name="Name" value="TestHelperTwoFields"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperTwoFields.html#ab8ee64c73b645ddfacdf953b01b9f381"><param name="Name" value="a"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperTwoFields.html#aaafa43d08ae2b172ab8e9e88fe3bb85c"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aa470125df472e4cb1d1a93f6768640bc"><param name="Name" value="testHelperTwoFields"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperTwoFields.html"><param name="Name" value="TestHelperTwoFields"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperTwoFields.html#a5acd7137504cda190b81a00db4e09bd3"><param name="Name" value="helper"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestHelperTwoFields.html#ad84905960138603734c637ba10a93fdb"><param name="Name" value="TestHelperTwoFields"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestInvalidNaming.html"><param name="Name" value="TestInvalidNaming"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a1b59306010bf23a70f306598952f49d5"><param name="Name" value="testInvalidNaming"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestInvalidNaming.html"><param name="Name" value="TestInvalidNaming"></OBJECT>
@@ -1096,6 +1345,14 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNoDuplicateCodeWithIndependentConstructors.html#a8ef7e3cb54347f1d3d4742360c32050d"><param name="Name" value="s"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNoDuplicateCodeWithIndependentConstructors.html#a0fbed481e122f675831437c189b6f477"><param name="Name" value="TestNoDuplicateCodeWithIndependentConstructors"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNoDuplicateCodeWithIndependentConstructors.html#a4c7d7315f9fe7725bacae551f368ae5d"><param name="Name" value="x"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNotReorderingParametersInExistingConstructor.html"><param name="Name" value="TestNotReorderingParametersInExistingConstructor"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a2f9c0ea69a29c696779870f304728135"><param name="Name" value="testNotReorderingParametersInExistingConstructor"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNotReorderingParametersInExistingConstructor.html"><param name="Name" value="TestNotReorderingParametersInExistingConstructor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNotReorderingParametersInExistingConstructor.html#a2be8644e30551d5a2e1366da1c438893"><param name="Name" value="TestNotReorderingParametersInExistingConstructor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNotReorderingParametersInExistingConstructor.html#a89f8d74b2fb0a85ea1766881e923f14e"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNotReorderingParametersInExistingConstructor.html#aaa85e58aebbdf6720e5ba04a5f4f665b"><param name="Name" value="y"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectAndPrimitiveTypesTwoConstructorsDifferentFields.html"><param name="Name" value="TestObjectAndPrimitiveTypesTwoConstructorsDifferentFields"></OBJECT>
   <UL>
@@ -1139,7 +1396,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a8ce024d895ab6486627105868561a1e3"><param name="Name" value="testObjectTypesWithParametersTwoConstructors"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectTypesWithParametersTwoConstructors.html"><param name="Name" value="TestObjectTypesWithParametersTwoConstructors"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectTypesWithParametersTwoConstructors.html#abe96b03841f438000a162b68ee07af9f"><param name="Name" value="s"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectTypesWithParametersTwoConstructors.html#a939b5db97988d501db704b560bf43d64"><param name="Name" value="s"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectTypesWithParametersTwoConstructors.html#ab71baff3303f45deb4144759543b603e"><param name="Name" value="TestObjectTypesWithParametersTwoConstructors"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestOneConstructorOnly.html"><param name="Name" value="TestOneConstructorOnly"></OBJECT>
@@ -1271,7 +1528,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesThreeConstructorsWithSameFields2.html#abdd1cc774447a96460c59d9a208e8b67"><param name="Name" value="y"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesThreeConstructorsWithSameFields2.html#afb46476d95f1cb84e71b6d991e3c916a"><param name="Name" value="z"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments2.html#a14daebfb504e73806a5e102bc51fda93"><param name="Name" value="TestPrimitiveTypesTwoConstructorsDifferentArguments2"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments1.html"><param name="Name" value="TestPrimitiveTypesTwoConstructorsDifferentFieldArguments1"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a01a7a7709e1c81cea238ed806ad9892c"><param name="Name" value="testPrimitiveTypesTwoConstructorsDifferentFieldArguments1"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments1.html"><param name="Name" value="TestPrimitiveTypesTwoConstructorsDifferentFieldArguments1"></OBJECT>
@@ -1284,7 +1540,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a5c291d0b712ef123de50c1132fa693f0"><param name="Name" value="testPrimitiveTypesTwoConstructorsDifferentFieldArguments2"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments2.html"><param name="Name" value="TestPrimitiveTypesTwoConstructorsDifferentFieldArguments2"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments2.html#a14daebfb504e73806a5e102bc51fda93"><param name="Name" value="TestPrimitiveTypesTwoConstructorsDifferentArguments2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments2.html#a0d692176317889c0bd07408db128cf9e"><param name="Name" value="TestPrimitiveTypesTwoConstructorsDifferentFieldArguments2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments2.html#ae9b62cc07987a2b7d2ad99d31b53e3e2"><param name="Name" value="x"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments2.html#a1022b1a98ab1e4b04e7a1647d4f4f542"><param name="Name" value="y"></OBJECT>
@@ -1298,23 +1553,49 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesTwoConstructorsSameFields.html#a90973e1e1c42a798e0e228fa78c29a22"><param name="Name" value="y"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a59cc4d65c71cfb08779284c46cb56d3e"><param name="Name" value="testSetup"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedObjectTypes.html"><param name="Name" value="TestUnusedObjectTypes"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#aa3dc60ec674bd2b220d9849f34baf483"><param name="Name" value="testUnusedObjectTypes"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedObjectTypes.html"><param name="Name" value="TestUnusedObjectTypes"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedObjectTypes.html#ab709ba901dae3808aa5e4b1fddaf0a8e"><param name="Name" value="TestUnusedObjectTypes"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedObjectTypes.html#ad3885d8067a7f6ddc96383780756fd29"><param name="Name" value="unused"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedObjectTypes.html#a832a0ed498946b21c6ccb7a915c3d351"><param name="Name" value="x"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedPrimitiveTypes.html"><param name="Name" value="TestUnusedPrimitiveTypes"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a927d833f2556deba5e64362b41c11651"><param name="Name" value="testUnusedPrimitiveTypes"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedPrimitiveTypes.html"><param name="Name" value="TestUnusedPrimitiveTypes"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedPrimitiveTypes.html#a9486b2c970089754196a44a832f1fff5"><param name="Name" value="TestUnusedPrimitiveTypes"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedPrimitiveTypes.html#a5bdd76da37cb3d2479dec87587db4e57"><param name="Name" value="unused"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedPrimitiveTypes.html#a2e17b56e2fb8f5a2384ad3baa096c2d3"><param name="Name" value="x"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TextRangeUtil.html#a7159ab0f39b37193075331eaa1e7d41f"><param name="Name" value="TextRangeUtil"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#a50d30af18e36d7598c081f86884a1518"><param name="Name" value="tryDeletingAllJavaChildren"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1RefactoringTest.html#a3af3a96c58786acf3ed02de6f7cb25ca"><param name="Name" value="tryDeletingAllNonJavaChildResources"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestMethodWithClassSubstring.html#a7f014a3f58039b29eb47ffb709947378"><param name="Name" value="tryTestMethodWithClassSubstring"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestOneConstructorWithMethodWithClassSubstring.html#a7c01b1ab212813e8d98f2d7a3d433ade"><param name="Name" value="tryTestOneConstructorWithMethodWithClassSubstring"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a41a2b2c573bfe5d793565302ca9637ab"><param name="Name" value="UNABLE_TO_REFACTOR"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedObjectTypes.html#ad3885d8067a7f6ddc96383780756fd29"><param name="Name" value="unused"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedObjectTypes.html#ad3885d8067a7f6ddc96383780756fd29"><param name="Name" value="TestUnusedObjectTypes"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedPrimitiveTypes.html#a5bdd76da37cb3d2479dec87587db4e57"><param name="Name" value="TestUnusedPrimitiveTypes"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#a662e53b70676b01dbf7c108ce7142729"><param name="Name" value="use_tab"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1AbstractSelectionTestCase.html#ad3d8d4dd2004b2fdab94d0dbb003304d"><param name="Name" value="VALID_SELECTION"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider.html#ad4565e82ca60b09a0b8c1161009e4dba"><param name="Name" value="validateChange"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#abecc90ccb6a55d4e52dbf177d29a02ac"><param name="Name" value="validTest"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classedu_1_1illinois_1_1canistelCassabanana_1_1tests_1_1RemoveDuplicateCodeInConstructorsRefactoringTests.html#a2309845d5cf9b0ef028704323d056ae5"><param name="Name" value="validTest"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html#a28a8afd31e2f9fdec091772d2edb0e46"><param name="Name" value="wrapBeforeBinaryOperator"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html#a698634df0e42454ff7920579b8711a31"><param name="Name" value="x"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessPrivate.html#a07b6c33e3e1c0602e43a16b91711d869"><param name="Name" value="x"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html#a698634df0e42454ff7920579b8711a31"><param name="Name" value="TestComputationalConstructor1"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor2.html#a8c838ffcc9a1ea5dc12cb3cceaf735c8"><param name="Name" value="TestComputationalConstructor2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessPrivate.html#a07b6c33e3e1c0602e43a16b91711d869"><param name="Name" value="TestAccessPrivate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessProtected.html#a2b29b691818976d895bc01713b855212"><param name="Name" value="TestAccessProtected"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html#a659df0fbcd14eb65b8707c23586c874d"><param name="Name" value="TestComputationalConstructor1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor2.html#a76de27ec33f7f7dfb3443f716aa257eb"><param name="Name" value="TestComputationalConstructor2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestConditionalConstructor.html#a178d1ff647a108fe35c03b3927d812d5"><param name="Name" value="TestConditionalConstructor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyObjectFunction.html#af79c0a2741049db88419425cc27e5fb5"><param name="Name" value="TestFieldAssignmentDependencyObjectFunction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyPrimitive.html#aa896fa50d990b8b5cdc8490c137b1cef"><param name="Name" value="TestFieldAssignmentDependencyPrimitive"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyPrimitive2.html#ad0e08b3a510d1e3a2041008e61f3265b"><param name="Name" value="TestFieldAssignmentDependencyPrimitive2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNoDuplicateCodeWithIndependentConstructors.html#a4c7d7315f9fe7725bacae551f368ae5d"><param name="Name" value="TestNoDuplicateCodeWithIndependentConstructors"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNotReorderingParametersInExistingConstructor.html#a89f8d74b2fb0a85ea1766881e923f14e"><param name="Name" value="TestNotReorderingParametersInExistingConstructor"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectAndPrimitiveTypesTwoConstructorsDifferentFields.html#acd6e4372ac5a3f095fe827a7649f4e01"><param name="Name" value="TestObjectAndPrimitiveTypesTwoConstructorsDifferentFields"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectTypesDefaultConstructor.html#a17225e974edbb85ef0f11433556ad3ad"><param name="Name" value="TestObjectTypesDefaultConstructor"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectTypesDefaultConstructorExplicitValue.html#a7f1f5fae9182a2110bbb4bb6f45d2285"><param name="Name" value="TestObjectTypesDefaultConstructorExplicitValue"></OBJECT>
@@ -1333,13 +1614,19 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments1.html#a6a852ce8aec44e85089a0b28b8f5e011"><param name="Name" value="TestPrimitiveTypesTwoConstructorsDifferentFieldArguments1"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments2.html#ae9b62cc07987a2b7d2ad99d31b53e3e2"><param name="Name" value="TestPrimitiveTypesTwoConstructorsDifferentFieldArguments2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestPrimitiveTypesTwoConstructorsSameFields.html#adc55009e1fea5c8c5aa7c686232cfc1b"><param name="Name" value="TestPrimitiveTypesTwoConstructorsSameFields"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedObjectTypes.html#a832a0ed498946b21c6ccb7a915c3d351"><param name="Name" value="TestUnusedObjectTypes"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestUnusedPrimitiveTypes.html#a2e17b56e2fb8f5a2384ad3baa096c2d3"><param name="Name" value="TestUnusedPrimitiveTypes"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html#a3ee7eb42c5bcb713e70e98c2fff0c44d"><param name="Name" value="y"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessPrivate.html#aa9cf75558ddecbf9ce9e88d570ddd8c4"><param name="Name" value="y"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html#a3ee7eb42c5bcb713e70e98c2fff0c44d"><param name="Name" value="TestComputationalConstructor1"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor2.html#a469df9698753af791f46ca0384d2a3dd"><param name="Name" value="TestComputationalConstructor2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessPrivate.html#aa9cf75558ddecbf9ce9e88d570ddd8c4"><param name="Name" value="TestAccessPrivate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestAccessProtected.html#a5ce8555d969491d984d384a658bc268d"><param name="Name" value="TestAccessProtected"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor1.html#ab06cc3f1fef70c8301fda6153851327a"><param name="Name" value="TestComputationalConstructor1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestComputationalConstructor2.html#ab069c2b16a01402cc3f85b30df185028"><param name="Name" value="TestComputationalConstructor2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestConditionalConstructor.html#a9d4b5fe92fb28e1f6a47420bc248eac3"><param name="Name" value="TestConditionalConstructor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestFieldAssignmentDependencyPrimitive2.html#a74bcb880aeb12990367c188e9291fc21"><param name="Name" value="TestFieldAssignmentDependencyPrimitive2"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNoDuplicateCodeRandomValues.html#a39e04971fb5b3b2f7e3e56d8229df657"><param name="Name" value="TestNoDuplicateCodeRandomValues"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestNotReorderingParametersInExistingConstructor.html#aaa85e58aebbdf6720e5ba04a5f4f665b"><param name="Name" value="TestNotReorderingParametersInExistingConstructor"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectAndPrimitiveTypesTwoConstructorsDifferentFields.html#a78a43959fdccd99feddcc7042de33188"><param name="Name" value="TestObjectAndPrimitiveTypesTwoConstructorsDifferentFields"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectTypesTwoConstructorsDifferentFields.html#a094ae97fd8261ada6d7105ec74f157ad"><param name="Name" value="TestObjectTypesTwoConstructorsDifferentFields"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classTestObjectTypesTwoConstructorsSameFields.html#a95a563961bd6f03151682f0d5f3abf7c"><param name="Name" value="TestObjectTypesTwoConstructorsSameFields"></OBJECT>

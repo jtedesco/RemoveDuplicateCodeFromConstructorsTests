@@ -1,12 +1,11 @@
-public class TestPrimitiveTypesDefaultConstructor{
-	
+public class TestPrimitiveTypesDefaultConstructor {
+
 	int x;
-	
+
 	public TestPrimitiveTypesDefaultConstructor() {
-		
 	}
-	
-	public TestPrimitiveTypesDefaultConstructor(int x){
+
+	public TestPrimitiveTypesDefaultConstructor(int x) {
 		this.x = x;
 	}
 }

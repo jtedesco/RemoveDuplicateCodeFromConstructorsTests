@@ -6,6 +6,11 @@ import org.eclipse.jdt.core.IPackageFragment;
 import org.eclipse.jdt.core.IPackageFragmentRoot;
 import org.eclipse.jdt.ui.tests.refactoring.infra.RefactoringTestSetup;
 
+/**
+ * Launches the plugin test
+ * 
+ * @author jon
+ */
 public class RemoveDuplicateCodeInConstructorsRefactoringTestSetup extends RefactoringTestSetup {
 	
 	private IPackageFragment fBaseTypes;

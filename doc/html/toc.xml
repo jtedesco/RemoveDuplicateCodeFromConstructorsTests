@@ -16,12 +16,34 @@
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra.SimpleSelectionProvider" href="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1SimpleSelectionProvider.html"/>
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.Sorter" href="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_1_1Sorter.html"/>
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra.StringAsserts" href="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1StringAsserts.html"/>
+    <topic label="TestAccessPrivate" href="classTestAccessPrivate.html"/>
+    <topic label="TestAccessProtected" href="classTestAccessProtected.html"/>
     <topic label="TestComputationalConstructor1" href="classTestComputationalConstructor1.html"/>
     <topic label="TestComputationalConstructor2" href="classTestComputationalConstructor2.html"/>
     <topic label="TestConditionalConstructor" href="classTestConditionalConstructor.html"/>
     <topic label="TestEmptyClass" href="classTestEmptyClass.html"/>
+    <topic label="TestFieldAssignmentDependencyObject" href="classTestFieldAssignmentDependencyObject.html"/>
+    <topic label="TestFieldAssignmentDependencyObjectFunction" href="classTestFieldAssignmentDependencyObjectFunction.html"/>
+    <topic label="TestFieldAssignmentDependencyPrimitive" href="classTestFieldAssignmentDependencyPrimitive.html"/>
+    <topic label="TestFieldAssignmentDependencyPrimitive2" href="classTestFieldAssignmentDependencyPrimitive2.html"/>
     <topic label="TestFieldsAndMethods" href="classTestFieldsAndMethods.html"/>
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra.TestFormatterOptions" href="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html"/>
+    <topic label="TestHelperExistingName" href="classTestHelperExistingName.html"/>
+    <topic label="TestHelperNameFormatAt" href="classTestHelperNameFormatAt.html"/>
+    <topic label="TestHelperNameFormatClassName" href="classTestHelperNameFormatClassName.html"/>
+    <topic label="TestHelperNameFormatDefault" href="classTestHelperNameFormatDefault.html"/>
+    <topic label="edu.illinois.canistelCassabanana.TestHelperNameFormatEmpty" href="classedu_1_1illinois_1_1canistelCassabanana_1_1TestHelperNameFormatEmpty.html"/>
+    <topic label="TestHelperNameFormatExclamation" href="classTestHelperNameFormatExclamation.html"/>
+    <topic label="TestHelperNameFormatInt" href="classTestHelperNameFormatInt.html"/>
+    <topic label="TestHelperNameFormatNumber" href="classTestHelperNameFormatNumber.html"/>
+    <topic label="TestHelperNameFormatPound" href="classTestHelperNameFormatPound.html"/>
+    <topic label="TestHelperNameFormatSemicolon" href="classTestHelperNameFormatSemicolon.html"/>
+    <topic label="TestHelperNameFormatSlash" href="classTestHelperNameFormatSlash.html"/>
+    <topic label="TestHelperNameFormatSpace" href="classTestHelperNameFormatSpace.html"/>
+    <topic label="TestHelperNameFormatSpaced" href="classTestHelperNameFormatSpaced.html"/>
+    <topic label="TestHelperNameFormatSpaceStart" href="classTestHelperNameFormatSpaceStart.html"/>
+    <topic label="TestHelperProtectedName" href="classTestHelperProtectedName.html"/>
+    <topic label="TestHelperTwoFields" href="classTestHelperTwoFields.html"/>
     <topic label="TestInvalidNaming" href="classTestInvalidNaming.html"/>
     <topic label="TestMethodWithClassSubstring" href="classTestMethodWithClassSubstring.html"/>
     <topic label="TestMissingSemicolon" href="classTestMissingSemicolon.html"/>
@@ -29,6 +51,7 @@
     <topic label="TestNoDuplicateCodeRandomValues" href="classTestNoDuplicateCodeRandomValues.html"/>
     <topic label="TestNoDuplicateCodeWithDefaultConstructor" href="classTestNoDuplicateCodeWithDefaultConstructor.html"/>
     <topic label="TestNoDuplicateCodeWithIndependentConstructors" href="classTestNoDuplicateCodeWithIndependentConstructors.html"/>
+    <topic label="TestNotReorderingParametersInExistingConstructor" href="classTestNotReorderingParametersInExistingConstructor.html"/>
     <topic label="TestObjectAndPrimitiveTypesTwoConstructorsDifferentFields" href="classTestObjectAndPrimitiveTypesTwoConstructorsDifferentFields.html"/>
     <topic label="TestObjectTypesDefaultConstructor" href="classTestObjectTypesDefaultConstructor.html"/>
     <topic label="TestObjectTypesDefaultConstructorExplicitValue" href="classTestObjectTypesDefaultConstructorExplicitValue.html"/>
@@ -56,6 +79,8 @@
     <topic label="TestPrimitiveTypesTwoConstructorsDifferentFieldArguments1" href="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments1.html"/>
     <topic label="TestPrimitiveTypesTwoConstructorsDifferentFieldArguments2" href="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments2.html"/>
     <topic label="TestPrimitiveTypesTwoConstructorsSameFields" href="classTestPrimitiveTypesTwoConstructorsSameFields.html"/>
+    <topic label="TestUnusedObjectTypes" href="classTestUnusedObjectTypes.html"/>
+    <topic label="TestUnusedPrimitiveTypes" href="classTestUnusedPrimitiveTypes.html"/>
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra.TextRangeUtil" href="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TextRangeUtil.html"/>
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra.ZipTools" href="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1ZipTools.html"/>
   </topic>
@@ -81,12 +106,34 @@
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra.SimpleSelectionProvider" href="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1SimpleSelectionProvider.html"/>
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra.TestModelProvider.Sorter" href="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestModelProvider_1_1Sorter.html"/>
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra.StringAsserts" href="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1StringAsserts.html"/>
+    <topic label="TestAccessPrivate" href="classTestAccessPrivate.html"/>
+    <topic label="TestAccessProtected" href="classTestAccessProtected.html"/>
     <topic label="TestComputationalConstructor1" href="classTestComputationalConstructor1.html"/>
     <topic label="TestComputationalConstructor2" href="classTestComputationalConstructor2.html"/>
     <topic label="TestConditionalConstructor" href="classTestConditionalConstructor.html"/>
     <topic label="TestEmptyClass" href="classTestEmptyClass.html"/>
+    <topic label="TestFieldAssignmentDependencyObject" href="classTestFieldAssignmentDependencyObject.html"/>
+    <topic label="TestFieldAssignmentDependencyObjectFunction" href="classTestFieldAssignmentDependencyObjectFunction.html"/>
+    <topic label="TestFieldAssignmentDependencyPrimitive" href="classTestFieldAssignmentDependencyPrimitive.html"/>
+    <topic label="TestFieldAssignmentDependencyPrimitive2" href="classTestFieldAssignmentDependencyPrimitive2.html"/>
     <topic label="TestFieldsAndMethods" href="classTestFieldsAndMethods.html"/>
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra.TestFormatterOptions" href="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TestFormatterOptions.html"/>
+    <topic label="TestHelperExistingName" href="classTestHelperExistingName.html"/>
+    <topic label="TestHelperNameFormatAt" href="classTestHelperNameFormatAt.html"/>
+    <topic label="TestHelperNameFormatClassName" href="classTestHelperNameFormatClassName.html"/>
+    <topic label="TestHelperNameFormatDefault" href="classTestHelperNameFormatDefault.html"/>
+    <topic label="edu.illinois.canistelCassabanana.TestHelperNameFormatEmpty" href="classedu_1_1illinois_1_1canistelCassabanana_1_1TestHelperNameFormatEmpty.html"/>
+    <topic label="TestHelperNameFormatExclamation" href="classTestHelperNameFormatExclamation.html"/>
+    <topic label="TestHelperNameFormatInt" href="classTestHelperNameFormatInt.html"/>
+    <topic label="TestHelperNameFormatNumber" href="classTestHelperNameFormatNumber.html"/>
+    <topic label="TestHelperNameFormatPound" href="classTestHelperNameFormatPound.html"/>
+    <topic label="TestHelperNameFormatSemicolon" href="classTestHelperNameFormatSemicolon.html"/>
+    <topic label="TestHelperNameFormatSlash" href="classTestHelperNameFormatSlash.html"/>
+    <topic label="TestHelperNameFormatSpace" href="classTestHelperNameFormatSpace.html"/>
+    <topic label="TestHelperNameFormatSpaced" href="classTestHelperNameFormatSpaced.html"/>
+    <topic label="TestHelperNameFormatSpaceStart" href="classTestHelperNameFormatSpaceStart.html"/>
+    <topic label="TestHelperProtectedName" href="classTestHelperProtectedName.html"/>
+    <topic label="TestHelperTwoFields" href="classTestHelperTwoFields.html"/>
     <topic label="TestInvalidNaming" href="classTestInvalidNaming.html"/>
     <topic label="TestMethodWithClassSubstring" href="classTestMethodWithClassSubstring.html"/>
     <topic label="TestMissingSemicolon" href="classTestMissingSemicolon.html"/>
@@ -94,6 +141,7 @@
     <topic label="TestNoDuplicateCodeRandomValues" href="classTestNoDuplicateCodeRandomValues.html"/>
     <topic label="TestNoDuplicateCodeWithDefaultConstructor" href="classTestNoDuplicateCodeWithDefaultConstructor.html"/>
     <topic label="TestNoDuplicateCodeWithIndependentConstructors" href="classTestNoDuplicateCodeWithIndependentConstructors.html"/>
+    <topic label="TestNotReorderingParametersInExistingConstructor" href="classTestNotReorderingParametersInExistingConstructor.html"/>
     <topic label="TestObjectAndPrimitiveTypesTwoConstructorsDifferentFields" href="classTestObjectAndPrimitiveTypesTwoConstructorsDifferentFields.html"/>
     <topic label="TestObjectTypesDefaultConstructor" href="classTestObjectTypesDefaultConstructor.html"/>
     <topic label="TestObjectTypesDefaultConstructorExplicitValue" href="classTestObjectTypesDefaultConstructorExplicitValue.html"/>
@@ -121,6 +169,8 @@
     <topic label="TestPrimitiveTypesTwoConstructorsDifferentFieldArguments1" href="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments1.html"/>
     <topic label="TestPrimitiveTypesTwoConstructorsDifferentFieldArguments2" href="classTestPrimitiveTypesTwoConstructorsDifferentFieldArguments2.html"/>
     <topic label="TestPrimitiveTypesTwoConstructorsSameFields" href="classTestPrimitiveTypesTwoConstructorsSameFields.html"/>
+    <topic label="TestUnusedObjectTypes" href="classTestUnusedObjectTypes.html"/>
+    <topic label="TestUnusedPrimitiveTypes" href="classTestUnusedPrimitiveTypes.html"/>
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra.TextRangeUtil" href="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1TextRangeUtil.html"/>
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra.ZipTools" href="classorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra_1_1ZipTools.html"/>
   </topic>
@@ -139,10 +189,31 @@
     <topic label="org.eclipse.jdt.ui.tests.refactoring.infra" href="namespaceorg_1_1eclipse_1_1jdt_1_1ui_1_1tests_1_1refactoring_1_1infra.html"/>
   </topic>
   <topic label="File List" href="files.html">
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestComputationalConstructor1.java" href="TestComputationalConstructor1_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestComputationalConstructor2.java" href="TestComputationalConstructor2_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestConditionalConstructor.java" href="TestConditionalConstructor_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestEmptyClass.java" href="TestEmptyClass_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestEmptyFile.java" href="TestEmptyFile_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestFieldAssignmentDependencyObject.java" href="TestFieldAssignmentDependencyObject_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestFieldAssignmentDependencyObjectFunction.java" href="TestFieldAssignmentDependencyObjectFunction_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestFieldAssignmentDependencyPrimitive.java" href="TestFieldAssignmentDependencyPrimitive_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestFieldAssignmentDependencyPrimitive2.java" href="TestFieldAssignmentDependencyPrimitive2_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestFieldsAndMethods.java" href="TestFieldsAndMethods_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperExistingName.java" href="TestHelperExistingName_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatAt.java" href="TestHelperNameFormatAt_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatClassName.java" href="TestHelperNameFormatClassName_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatDefault.java" href="TestHelperNameFormatDefault_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatEmpty.java" href="TestHelperNameFormatEmpty_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatExclamation.java" href="TestHelperNameFormatExclamation_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatInt.java" href="TestHelperNameFormatInt_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatNumber.java" href="TestHelperNameFormatNumber_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatPound.java" href="TestHelperNameFormatPound_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatSemicolon.java" href="TestHelperNameFormatSemicolon_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatSlash.java" href="TestHelperNameFormatSlash_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatSpace.java" href="TestHelperNameFormatSpace_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatSpaced.java" href="TestHelperNameFormatSpaced_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperNameFormatSpaceStart.java" href="TestHelperNameFormatSpaceStart_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestHelperProtectedName.java" href="TestHelperProtectedName_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestInvalidNaming.java" href="TestInvalidNaming_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestMethodWithClassSubstring.java" href="TestMethodWithClassSubstring_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestMissingBracket.java" href="TestMissingBracket_8java.html"/>
@@ -151,6 +222,7 @@
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestNoDuplicateCodeRandomValues.java" href="TestNoDuplicateCodeRandomValues_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestNoDuplicateCodeWithDefaultConstructor.java" href="TestNoDuplicateCodeWithDefaultConstructor_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestNoDuplicateCodeWithIndependentConstructors.java" href="TestNoDuplicateCodeWithIndependentConstructors_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestObjectTypesWithParametersTwoConstructors.java" href="TestObjectTypesWithParametersTwoConstructors_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestOneConstructorOnly.java" href="TestOneConstructorOnly_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestOneConstructorWithFields.java" href="TestOneConstructorWithFields_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestOneConstructorWithFieldsAndMethods.java" href="TestOneConstructorWithFieldsAndMethods_8java.html"/>
@@ -158,15 +230,16 @@
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestOneConstructorWithMethodWithClassSubstring.java" href="TestOneConstructorWithMethodWithClassSubstring_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestOnlyFields.java" href="TestOnlyFields_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/invalid/TestOnlyMethods.java" href="TestOnlyMethods_8java.html"/>
-    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestComputationalConstructor1.java" href="object__in_2TestComputationalConstructor1_8java.html"/>
-    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestComputationalConstructor2.java" href="object__in_2TestComputationalConstructor2_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestAccessPrivate.java" href="object__in_2TestAccessPrivate_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestAccessProtected.java" href="object__in_2TestAccessProtected_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestHelperTwoFields.java" href="object__in_2TestHelperTwoFields_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestNotReorderingParametersInExistingConstructor.java" href="object__in_2TestNotReorderingParametersInExistingConstructor_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestObjectAndPrimitiveTypesTwoConstructorsDifferentFields.java" href="object__in_2TestObjectAndPrimitiveTypesTwoConstructorsDifferentFields_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestObjectAndPrimitiveTypesTwoConstructorsSameFields.java" href="object__in_2TestObjectAndPrimitiveTypesTwoConstructorsSameFields_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestObjectTypesDefaultConstructor.java" href="object__in_2TestObjectTypesDefaultConstructor_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestObjectTypesDefaultConstructorExplicitValue.java" href="object__in_2TestObjectTypesDefaultConstructorExplicitValue_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestObjectTypesTwoConstructorsDifferentFields.java" href="object__in_2TestObjectTypesTwoConstructorsDifferentFields_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestObjectTypesTwoConstructorsSameFields.java" href="object__in_2TestObjectTypesTwoConstructorsSameFields_8java.html"/>
-    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestObjectTypesWithParametersTwoConstructors.java" href="object__in_2TestObjectTypesWithParametersTwoConstructors_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestPrimitiveTypesDefaultConstructor.java" href="object__in_2TestPrimitiveTypesDefaultConstructor_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestPrimitiveTypesDefaultConstructorExplicitValue.java" href="object__in_2TestPrimitiveTypesDefaultConstructorExplicitValue_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestPrimitiveTypesThreeConstructorsWithDefault.java" href="object__in_2TestPrimitiveTypesThreeConstructorsWithDefault_8java.html"/>
@@ -179,15 +252,18 @@
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestPrimitiveTypesTwoConstructorsDifferentFieldArguments1.java" href="object__in_2TestPrimitiveTypesTwoConstructorsDifferentFieldArguments1_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestPrimitiveTypesTwoConstructorsDifferentFieldArguments2.java" href="object__in_2TestPrimitiveTypesTwoConstructorsDifferentFieldArguments2_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestPrimitiveTypesTwoConstructorsSameFields.java" href="object__in_2TestPrimitiveTypesTwoConstructorsSameFields_8java.html"/>
-    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestComputationalConstructor1.java" href="object__out_2TestComputationalConstructor1_8java.html"/>
-    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestComputationalConstructor2.java" href="object__out_2TestComputationalConstructor2_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestUnusedObjectTypes.java" href="object__in_2TestUnusedObjectTypes_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_in/TestUnusedPrimitiveTypes.java" href="object__in_2TestUnusedPrimitiveTypes_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestAccessPrivate.java" href="object__out_2TestAccessPrivate_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestAccessProtected.java" href="object__out_2TestAccessProtected_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestHelperTwoFields.java" href="object__out_2TestHelperTwoFields_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestNotReorderingParametersInExistingConstructor.java" href="object__out_2TestNotReorderingParametersInExistingConstructor_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestObjectAndPrimitiveTypesTwoConstructorsDifferentFields.java" href="object__out_2TestObjectAndPrimitiveTypesTwoConstructorsDifferentFields_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestObjectAndPrimitiveTypesTwoConstructorsSameFields.java" href="object__out_2TestObjectAndPrimitiveTypesTwoConstructorsSameFields_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestObjectTypesDefaultConstructor.java" href="object__out_2TestObjectTypesDefaultConstructor_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestObjectTypesDefaultConstructorExplicitValue.java" href="object__out_2TestObjectTypesDefaultConstructorExplicitValue_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestObjectTypesTwoConstructorsDifferentFields.java" href="object__out_2TestObjectTypesTwoConstructorsDifferentFields_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestObjectTypesTwoConstructorsSameFields.java" href="object__out_2TestObjectTypesTwoConstructorsSameFields_8java.html"/>
-    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestObjectTypesWithParametersTwoConstructors.java" href="object__out_2TestObjectTypesWithParametersTwoConstructors_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestPrimitiveTypesDefaultConstructor.java" href="object__out_2TestPrimitiveTypesDefaultConstructor_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestPrimitiveTypesDefaultConstructorExplicitValue.java" href="object__out_2TestPrimitiveTypesDefaultConstructorExplicitValue_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestPrimitiveTypesThreeConstructorsWithDefault.java" href="object__out_2TestPrimitiveTypesThreeConstructorsWithDefault_8java.html"/>
@@ -200,6 +276,8 @@
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestPrimitiveTypesTwoConstructorsDifferentFieldArguments1.java" href="object__out_2TestPrimitiveTypesTwoConstructorsDifferentFieldArguments1_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestPrimitiveTypesTwoConstructorsDifferentFieldArguments2.java" href="object__out_2TestPrimitiveTypesTwoConstructorsDifferentFieldArguments2_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestPrimitiveTypesTwoConstructorsSameFields.java" href="object__out_2TestPrimitiveTypesTwoConstructorsSameFields_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestUnusedObjectTypes.java" href="object__out_2TestUnusedObjectTypes_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/resources/DuplicateCodeInConstructorsRefactoring/object_out/TestUnusedPrimitiveTypes.java" href="object__out_2TestUnusedPrimitiveTypes_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/src/edu/illinois/canistelCassabanana/tests/Activator.java" href="Activator_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/src/edu/illinois/canistelCassabanana/tests/RemoveDuplicateCodeInConstructorsRefactoringTests.java" href="RemoveDuplicateCodeInConstructorsRefactoringTests_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana.tests/src/edu/illinois/canistelCassabanana/tests/RemoveDuplicateCodeInConstructorsRefactoringTestSetup.java" href="RemoveDuplicateCodeInConstructorsRefactoringTestSetup_8java.html"/>
